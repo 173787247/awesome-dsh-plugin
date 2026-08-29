@@ -57,6 +57,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
   - [Sessions & Messages](#sessions--messages)
   - [Memory](#memory)
   - [Tools & Capabilities](#tools--capabilities)
+  - [WSL Kit (Windows + WSL)](#wsl-kit-windows--wsl)
   - [Browser & Web](#browser--web)
   - [Vision & Multimodal](#vision--multimodal)
   - [Voice & Audio](#voice--audio)
@@ -88,7 +89,6 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [0xsline/dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for the DSH Web UI.
 - [1070296335-create/dph-taskboard](https://github.com/1070296335-create/dph-taskboard) - Session-based task board in the sidebar: drag sessions into todo/doing/review/done columns, create sessions with model and reasoning-effort selection, trash with restore, notes, export/import.
 - [13071301808/dsh-composer-expand](https://github.com/13071301808/dsh-composer-expand) - Composer expand/collapse toggle for the Web UI: a ⬆/⬇ button in the composer tool row grows the input to a tall 70vh writing view for long drafts.
-- [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [2768651338/dsh-effort-slider](https://github.com/2768651338/dsh-effort-slider) - A Claude Code-style reasoning-effort slider for the DSH Web UI: stepless drag, snap-on-release, a WebGL fire trail, and real, working thinking-effort control for any custom third-party model or provider.
 - [2nd1st/dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) - Runs open-mcp-apps inside DSH: every MCP app gets its own sidebar container with a separate workspace, session, and App mode, an agent status strip under the app, and inline app rendering in ordinary chats.
 - [534119219/chicheng-quickinput](https://github.com/534119219/chicheng-quickinput) - Vault button beside the DSH composer: save keys, servers, phone numbers, addresses and URLs, auto-collected from conversations, password-protected with WebDAV backup; click to insert, Ctrl+click to send.
@@ -1115,7 +1115,6 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 
 - [0xRabit/dsh-crypto-portfolio](https://github.com/0xRabit/dsh-crypto-portfolio) - Crypto portfolio tracker for DSH: BTC / EVM (DeBank free+paid) / Solana / Hyperliquid L1 / CEX balances with multi-provider API failover, per-profile configs, scheduled daily refresh and trend charts (self-contained web dashboard).
 - [1321928757/dsh-mysql](https://github.com/1321928757/dsh-mysql) - MySQL connector for DeepSeek Harness: configure multiple connections in the settings page with per-connection table allowlist and write permission, switch the active connection from the composer, and expose mysql_query / mysql_tables / mysql_execute tools to every agent preset.
-- [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
 - [1na-ko/dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) - HarmonyOS device bridge: hdc screenshot/install/log/crash/UI automation loop with read_image, official-first versioned API knowledge (SDK .d.ts + offline bundled docs), and a DevEco CLI build/sign/lint lane.
 - [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) - Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local WSL distribution on the host machine, while Windows files remain accessible.
 - [863683348/dsh-plugin-academic-writing](https://github.com/863683348/dsh-plugin-academic-writing) - Academic writing toolkit for DSH agents: paper outlines, title and abstract skeletons, GB/T 7714 / APA / MLA citations, phrasing QA, and a pre-submission checklist.
@@ -1433,6 +1432,14 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [zoahdev/dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) - Render Markdown + JSON into self-contained HTML documents, cards, dashboards, and galleries (CLI + artifact_render tool).
 - [zp-home/dsh-recommend](https://github.com/zp-home/dsh-recommend) - Transparent rankings and recommendations for the DSH plugin ecosystem: daily auto-fetched topic data, an open scoring model, and rank/search/recommend tools with a settings-page leaderboard.
 - [ZRui-C/dsh-computer-use](https://github.com/ZRui-C/dsh-computer-use) - Text-first computer use for DSH: background Chromium control via Playwright/CDP plus accessibility-first macOS control; actions stay pinned to the right process and window without taking the user's pointer, ships a Developer ID signed, notarized Universal 2 DMG.
+
+### WSL Kit (Windows + WSL)
+
+- [173787247/dsh-repeat-stop](https://github.com/173787247/dsh-repeat-stop) - Hard-stop consecutive identical tool calls after a configurable streak so the agent cannot spin in place.
+- [173787247/dsh-tool-budget](https://github.com/173787247/dsh-tool-budget) - Hard-stop tool use after a per-session call budget, complementing streak-based repeat blocking.
+- [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Inject WSL and Windows path and shell facts into the system prompt for agents that run in WSL while the browser stays on Windows.
+- [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Diagnose WSL/Windows proxy and Node 24 fetch with the net_doctor tool, probe DeepSeek and npm, and return copy-paste fix scripts.
+- [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Highlight Linux paths in chat and open them in Windows with the default app or Explorer.
 
 ### Browser & Web
 
@@ -2109,7 +2116,6 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 ### Development & Runtime
 
 - [1123762794/dsh-web-restart](https://github.com/1123762794/dsh-web-restart) - One-click restart button for the DSH Web UI: a sidebar footer button that restarts the dsh web process with a single click and persists across the restart it triggers.
-- [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Injects WSL distro, Linux path mapping, /mnt/c CRLF and git caveats, and NODE_USE_ENV_PROXY into the system prompt.
 - [2008924/dsh-progress-viz#plugin](https://github.com/2008924/dsh-progress-viz/tree/main/plugin) - Real-time stage, ETA & cost dashboard for headless dsh tasks: turns the black-box session event stream into a live multi-task grid (cordis plugin + standalone local dashboard, no API calls).
 - [777-Zen/dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - Pre-flight plugin-library index for DSH agents: injects per-step trigger-table hints into the runtime context so suitable installed plugins get used predictably instead of opportunistically.
 - [863683348/dsh-plugin-verify](https://github.com/863683348/dsh-plugin-verify) - Verification toolkit for DSH agents: evidence-based claim checking against workspace files with line citations, config validation (JSON/YAML), and read-only URL/npm/GitHub submission-readiness probes.
@@ -2323,7 +2329,6 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [030611/dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - Writes local JSONL summaries of per-turn tool counts and coarse verification signals without storing prompts, tool arguments, or result text.
 - [030611/qiushi-dsh-evidence-audit](https://github.com/030611/qiushi-dsh-evidence-audit) - Appends local hash-chained JSONL receipts for tool results and session events without storing prompts, tool arguments, result text, or raw session IDs.
 - [0QwQ0/dsh-ui-auth](https://github.com/0QwQ0/dsh-ui-auth) - Authentication gate for the DeepSeek Harness Web UI: login covers pages, /api, /plugins and WebSocket upgrades; PBKDF2 password hashing, HttpOnly SameSite session cookies, IP-based login lockout, a user-management settings panel (users edit their own profile, admins add or remove users and reset passwords), admin-only model and API-key configuration guards, per-user isolation on the REST/list APIs and the WebSocket event streams, session persistence across restarts, a JSONL audit log, and a fail-closed gateway.
-- [173787247/dsh-repeat-stop](https://github.com/173787247/dsh-repeat-stop) - Denies the next tool call after a configurable streak of consecutive identical calls with the same arguments.
 - [863683348/dsh-gov](https://github.com/863683348/dsh-gov) - Agent governance suite: policy-based tool gating (allow/deny/ask with wildcards and priorities), a structured JSONL audit trail, and per-agent token quotas against the host token meter, with state under $DSH_HOME/gov.
 - [863683348/dsh-plugin-gate](https://github.com/863683348/dsh-plugin-gate) - Installation safety gate for DSH plugins: antivirus-style scan of install scripts, permissions, secrets and network callbacks on local directories or npm tarballs, returning a BLOCK/WARN/PASS verdict before "dsh plugin add".
 - [940842546/dsh-permissions](https://github.com/940842546/dsh-permissions) - Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.
