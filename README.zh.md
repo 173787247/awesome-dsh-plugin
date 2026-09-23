@@ -2343,6 +2343,7 @@ dsh plugin --profile web add dshmarket
 - [v587d/capital-generation](https://github.com/v587d/capital-generation) — 中国 A 股金融数据 MCP server：11 个 fin_data__* 工具（行情/K线/财务/日历/特色数据/公告/EDB/对账/基金/指数），同花顺免费官方 REST 主干 + AKShare 兜底 + Wind 独家域，降级全程可观测；上下文压缩（实测结果侧 -72.2%）；离线 10 年数据湖；BYOK 零平台密钥。
 - [vibeinging/dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) — 按 agent 的按需工具发现与渐进式 schema 披露。
 - [Viger1/dsh-design](https://github.com/Viger1/dsh-design) — 在渲染后的页面上测量设计规则，而非解析 CSS——字号种类、与真实合成背景比对的 WCAG AA 对比度、间距栅格偏移、配色规模、点击区尺寸，以及「机器味指纹」（如按色相角度判定的紫色渐变）；内置 design-system 技能。
+- [vikasranax/dsh-plugin-cats](https://github.com/vikasranax/dsh-plugin-cats) — 为 AI 代理从公开 API 获取随机猫咪冷知识与猫图。
 - [Vncntvx/dsh-zotero](https://github.com/Vncntvx/dsh-zotero) — 面向 Agent 研究工作流的 Zotero 插件：搜索文献、查看元数据与笔记、提取与问题相关的证据段落、打开原文 PDF、生成引用与参考文献表。
 - [volcengine/ark-cli#ark-managed-agents](https://github.com/volcengine/ark-cli/tree/main/dsh-plugins/ark-managed-agents) — 新增 Managed Agents 设置页，并通过 MCP 工具向方舟云端 Managed Agents 派发长任务、取回轨迹与产物。
 - [w4xxx/dsh-xia-plugins#packages/global-proxy](https://github.com/w4xxx/dsh-xia-plugins/tree/main/packages/global-proxy) — 把 Host 进程的 undici 请求统一路由到本地 HTTP(S) 代理，同时保持 localhost 与国内可达 API 直连。
