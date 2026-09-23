@@ -988,6 +988,7 @@ dsh plugin --profile web add dshmarket
 - [sunzhentao/dsh--prompt--enhance](https://github.com/sunzhentao/dsh--prompt--enhance) — DSH Web 界面提示词增强插件：基础/标准/专家三档模式，标准/专家模式结合项目上下文与最近会话历史重写草稿；网关拒绝推理档位参数时自动去参重试；增强结果支持对比确认与撤回。
 - [takboo/dsh-usage-state](https://github.com/takboo/dsh-usage-state) — 在输入框统计行下方一行显示当前模型所属供应商的账户余额或套餐额度（5h/7d/30d）；只做显示，不做成本统计。
 - [teethyachi/dsh-usage-mini](https://github.com/teethyachi/dsh-usage-mini) — DSH Web 悬浮用量小窗，显示 Claude、Codex 订阅用量窗口与重置倒计时，以及 DeepSeek API 今日花费与余额；只展示，是 dsh-cost-meter 的伴侣。
+- [TetraSsky/dsh-offpeak](https://github.com/TetraSsky/dsh-offpeak) — 在你配置的高峰时段内不发送 DeepSeek 模型调用，直到该时段结束再发出，从而按低谷价格计费；等待期间暂停进行中的目标，并显示账户余额与 8 小时消费图表。
 - [The-five-stooges/dsh-deepseek-usage](https://github.com/The-five-stooges/dsh-deepseek-usage) — 在侧边栏脚部显示一行 DeepSeek 账户余额（带刷新按钮），点击打开弹层：余额卡、7/30 天每日 Token 与估算费用图表、按模型明细表，以及平台用量页外链。余额取自官方 /user/balance 接口；用量由本机 DSH 会话日志聚合，按官方峰谷单价以人民币估算，因此界面明确标注为估算值并写明统计范围。
 - [Thedeergod666/dsh-musage](https://github.com/Thedeergod666/dsh-musage) — 在 composer 输入框旁显示 5 家 AI 套餐用量与余额（MiniMax、DeepSeek、Kimi、OpenRouter、智谱），跟随当前模型自动切换，复用 DSH 模型设置里已配的 API Key。
 - [ThinkofRain1213/deepseek-harness-wallet-patched](https://github.com/ThinkofRain1213/deepseek-harness-wallet-patched) — 余额、本会话花费与 token 拆分、24 小时峰谷计价时钟、Z.ai 套餐额度与本机用量账本，跟随宿主明暗主题与语言。feibi-mochi/deepseek-harness-control-center 的维护分支，界面提供英文与简体中文。
@@ -1995,7 +1996,7 @@ dsh plugin --profile web add dshmarket
 - [dsh-plugins/dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) — 为视觉理解、上下文压缩、审批审查、子代理、会话标题与图片生成提供独立的模型路由、工具与系统提示。
 - [duhu2000/dsh-data-cleaning-agent](https://github.com/duhu2000/dsh-data-cleaning-agent) — 数据清洗补全智能体：面向 Excel/CSV/JSON 企业名单，提供数据清洗、表格清洗、清洗补全、去重、企业数据补全与字段补全，支持企查查 MCP 和结果导出。
 - [duhu2000/dsh-form-fill-agent#dsh-form-fill-agent](https://github.com/duhu2000/dsh-form-fill-agent/tree/main/packages/dsh-form-fill-agent) — AI填表智能体：支持自动填表、表格填充、表格补全、Excel填表与 Excel回填；使用企查查 MCP 填写 XLSX 空白字段，预览确认后导出新副本。
-- [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) — MCP连接器：DeepSeek Harness 的 MCP 管理面板；通过持续更新的超百个 MCP连接器目录接入 MCP Server，统一管理接入与授权配置、跨连接搜索工具并完成连接排障；可按连接/服务/发现状态筛选，查看易读参数、最后成功缓存时间和诊断，并逐连接重新发现工具；支持 OAuth 2.0 PKCE、API Key、stdio/HTTP 和 mcpServers JSON 导入；由企查查/QCC 团队维护。
+- [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) — MCP连接器：DeepSeek Harness 的 MCP 管理面板；通过持续更新的超百个 MCP连接器目录接入 MCP Server，统一连接管理与授权配置、跨连接搜索工具并完成连接排障；可按连接/服务/发现状态筛选，查看易读参数、最后成功缓存时间和诊断，并逐连接重新发现工具；支持 OAuth 2.0 PKCE、API Key、stdio/HTTP 和 mcpServers JSON 导入；由企查查/QCC 团队维护。
 - [duhu2000/qcc-mcp-legal-oauth](https://github.com/duhu2000/qcc-mcp-legal-oauth) — 一键 OAuth（PKCE）授权接入企查查法律产品——法律数据 MCP 服务（法规检索、案例检索）：动态注册客户端、token 自动刷新、动态配置 mcp-client 条目，一次授权覆盖法规与案例服务。
 - [duhu2000/qcc-mcp-oauth](https://github.com/duhu2000/qcc-mcp-oauth) — 一键 OAuth（PKCE）授权接入企查查 MCP 服务：动态注册客户端、token 自动刷新、动态配置 mcp-client 条目，一次授权覆盖全部企查查数据服务。
 - [DYF-zs/dsh-qboson-ising-solver](https://github.com/DYF-zs/dsh-qboson-ising-solver) — 将 QBoson Kaiwu 的 Ising 矩阵求解能力作为 solve_ising Agent Tool 接入 DeepSeek Harness。
@@ -2976,6 +2977,7 @@ dsh plugin --profile web add dshmarket
 - [Vladimir-Human/humanizer-ru#dsh](https://github.com/Vladimir-Human/humanizer-ru/tree/main/dsh) — 清理俄语文本中的 AI 痕迹：识别聊天机器人复制粘贴残留（ChatGPT、Gemini、Grok、Perplexity、DeepSeek），移除隐藏文本标记（零宽字符、隐形排版；影子扫描捕获被不可见字符拆分的标记），并按需求改写为自然行文；40 个正则标记，其中 38 个有完整证据登记；156 个门控，530 个测试；离线运行，纯文本 bundle（二进制元数据移除在 scripts/ 中）。
 - [Vladimir-Human/ru-marketplace-mcp#dsh](https://github.com/Vladimir-Human/ru-marketplace-mcp/tree/main/dsh) — 面向十一家电商平台的技能与可选 MCP 行：跨 Wildberries、Detsky Mir、Yandex Market 比价，以及各平台（含 Ozon、Avito、AliExpress）的搜索、商品卡与评论。安装后 14 个技能立即可用；两行 MCP 默认关闭，需将 RU_MARKETPLACE_MCP_DIR 指向本地克隆，该克隆需要 Python 3.12+ 与 uv。
 - [vonweller/dsh-skillhub](https://github.com/vonweller/dsh-skillhub) — 在设置页浏览 skillhub.cn 公开技能目录，并将选中的 SKILL.md 技能包安装到 ~/.dsh/skills。
+- [w2310670047-code/ai-eight-honors-eight-shames](https://github.com/w2310670047-code/ai-eight-honors-eight-shames) — 注册 ai-eight-honors-eight-shames skill 的 DSH 插件：面向编码代理的八条可核对工作准则（先查证再调用、有歧义先确认、业务规则给出处、先复用再新造、先测试再声称完成、按既有约定写、区分事实与推断、改动可回滚），外加第 9 条——用户每次提出需求或问题，都在工作区根的两份固定报告里成对记录诉求与改动。
 - [warm-flame-core/new-project-init](https://github.com/warm-flame-core/new-project-init) — 项目文档体系初始化 skill：提问驱动落实文档规范、固化 AI 协作工作流，跨 DSH / Reasonix / Claude Code / Codex 可用。
 - [WaveSpeedAI/wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill) — 通过开源 wavespeed CLI 用 WaveSpeed 模型生成与编辑 AI 媒体（图像、视频、音频、3D）：实时目录搜索、逐模型输入 schema 自省、@path 标记本地文件上传、运行前价格查询。
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
