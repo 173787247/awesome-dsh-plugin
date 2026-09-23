@@ -1,0 +1,6 @@
+url: https://github.com/ThinkofRain1213/deepseek-harness-wallet-patched
+name: ThinkofRain1213/deepseek-harness-wallet-patched
+category: usage
+description:
+  en: 'Balance, per-session cost and token breakdown, a 24-hour peak/off-peak price clock, Z.ai plan quota, and a local usage ledger, all following the host light/dark theme and language. Maintained fork of feibi-mochi/deepseek-harness-control-center with the interface available in English and Simplified Chinese.'
+  zh: '余额、本会话花费与 token 拆分、24 小时峰谷计价时钟、Z.ai 套餐额度与本机用量账本，跟随宿主明暗主题与语言。feibi-mochi/deepseek-harness-control-center 的维护分支，界面提供英文与简体中文。'
