@@ -1603,6 +1603,7 @@ dsh plugin --profile web add dshmarket
 - [qinyre/dsh-plugin-atlas](https://github.com/qinyre/dsh-plugin-atlas) — 设置页的归档会话分区：按工作区分组浏览、搜索、批量取消归档，侧边栏实时恢复；自动归档规则（不活跃天数、每工作区保留条数）可选，执行前可试运行预览。另含长会话的左缘轮次刻度尺（悬停预览、点击跳转、Alt+↑/↓ 逐轮移动）与输入框 ↑/↓ 历史翻找。
 - [qiyu166/dsh-client-ui-session-mention](https://github.com/qiyu166/dsh-client-ui-session-mention) — 输入 @ 引用另一个对话：选择历史会话，将其压缩总结注入当前提示词。
 - [que3sui/dsh-darwin#sentinel](https://github.com/que3sui/dsh-darwin/tree/main/packages/sentinel) — 会话体检：基于官方 session-query 接缝，机械挖掘会话日志为结构化问题工单（重试环/工具错误簇/中断回合/Token 浪费）；可独立安装使用。
+- [qvsix/dsh-antigravity-bridge](https://github.com/qvsix/dsh-antigravity-bridge) — Read Google Antigravity SQLite conversations in DeepSeek Harness and import them as native sidebar sessions with list, read and import tools plus slash commands.
 - [qwert702/dsh-context-compressor](https://github.com/qwert702/dsh-context-compressor) — dsh 网页端一键上下文压缩：会话标题栏「压缩」按钮把整段对话总结成几句话，新建同工作区会话以摘要为第一条消息并自动切换，原会话原样保留。
 - [qwert702/dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) — dsh 网页端输出上限自动继续：本地模型输出到上限出现提示时，自动发送「继续」让回复接上；双源截断检测、防死循环保护，完全无 UI。
 - [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) — billion-context官方版：上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。
@@ -1977,6 +1978,7 @@ dsh plugin --profile web add dshmarket
 - [coolbreezecoin/dsh-wechat-mp](https://github.com/coolbreezecoin/dsh-wechat-mp) — 把 markdown 变成排好版的微信公众号草稿：样式逐条内联到元素上（编辑器会丢弃 `<style>` 块和 class 名），每张本地图片走微信自己的上传接口以免被过滤，然后创建草稿；不做群发。
 - [CoolTea001/dsh-cool-terminal](https://github.com/CoolTea001/dsh-cool-terminal) — DeepSeek Harness 终端插件，与工作区实时同步、终端隔离并单独记录历史命令。
 - [CREAIT-nl/dsh-plugins#tool-disclosure](https://github.com/CREAIT-nl/dsh-plugins/tree/main/tool-disclosure) — 渐进式工具披露：被延后的工具组在每次请求中只占目录里的一行，模型用 tool_search 加载后才拿到完整 schema；设置页为每个组提供一个开关，各组开销按当前工具注册表实测。
+- [ct-jaryn/dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) — 复用 DSH 现有 MCP 客户端连接百智云托管工具包的可选配置包，通过用户提供的 BAIZHI_API_KEY 生成 Bearer 请求头；工具调用可能计费。
 - [curtainsmall/dsh-electro-lab](https://github.com/curtainsmall/dsh-electro-lab) — DSH 电气电子计算插件：所有计算都通过专用工具完成，基于 SI 基本单位的自描述复数值对象；附带隔离的计算智能体预设与记录面板，每次求解落盘存档。
 - [CZX2244/dsh-bilibili](https://github.com/CZX2244/dsh-bilibili) — B站视频分析工具：提取元数据、字幕文稿（必剪/本地 ASR 兜底）、评论与弹幕，抓取清晰关键帧并可选本地视觉描述。
 - [DamonKoy/dsh-plugins#dsh-mcp-client-v2](https://github.com/DamonKoy/dsh-plugins/tree/main/packages/dsh-mcp-client-v2) — MCP 客户端增强：分页工具发现、非阻塞启动、mcp_tool_search 搜索，自研 stdio/streamable-http 传输。
