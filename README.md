@@ -1396,6 +1396,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [zhubaohi/dsh-qwen38-compaction-fix](https://github.com/zhubaohi/dsh-qwen38-compaction-fix) - Compaction fix for NInfer-hosted qwen3.8-27b gateways: disables thinking on dsh context-compaction and session-title calls so xhigh reasoning stops burning the whole output budget; the same idea applies to other launch methods, this package targets NInfer only.
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - Dual-endpoint Zhipu BigModel GLM provider catalog (Coding Plan and ordinary API) with live model discovery, live-tested thinking-tier mapping, and a settings card for keys, endpoints and the default reasoning tier.
 - [zpis666/dsh-context-budget](https://github.com/zpis666/dsh-context-budget) - Adds per-route context window and compaction threshold fields to the Models settings page and a vendor-aware thinking-effort picker to the composer, writing llm-pi-ai capacities, reasoningEfforts, and a compaction-basic patch row.
+- [Ztyss/dsh-llm-provider](https://github.com/Ztyss/dsh-llm-provider) - Replaces the built-in llm-pi-ai and llm-deepseek adapters, the model selector and the Models settings page with self-maintained versions, tracks upstream @earendil-works/pi-ai through a safe-zone download with a one-click enable toggle, and adds provider quota and balance lookups plus a provider management page.
 
 ### Identity & Communication
 

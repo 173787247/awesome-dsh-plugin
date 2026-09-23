@@ -1396,6 +1396,7 @@ dsh plugin --profile web add dshmarket
 - [zhubaohi/dsh-qwen38-compaction-fix](https://github.com/zhubaohi/dsh-qwen38-compaction-fix) — 针对 NInfer 托管的 qwen3.8-27b 网关的压缩修复：在 dsh 上下文压缩与会话标题调用中关闭思考，避免 xhigh 推理耗尽全部输出预算；同一思路适用于其他启动方式，本包仅面向 NInfer。
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) — 智谱 BigModel GLM 双端点模型目录（Coding Plan 与普通 API），支持实时模型发现与实测校准的思考档位映射，提供凭据、端点与默认推理档的可视化设置卡片。
 - [zpis666/dsh-context-budget](https://github.com/zpis666/dsh-context-budget) — 在模型设置页为每个 pi-ai 路由新增上下文窗口与压缩阈值字段，并在输入框右下角按厂商提供思考强度选择器，写入 llm-pi-ai 容量、reasoningEfforts 与 compaction-basic 补丁行。
+- [Ztyss/dsh-llm-provider](https://github.com/Ztyss/dsh-llm-provider) — 把内置的 llm-pi-ai 与 llm-deepseek 适配器、模型选择器、模型服务设置页替换为自维护版本；经安全区下载跟踪上游 @earendil-works/pi-ai 并提供一键启用开关；另加供应商额度与余额查询、供应商管理页。
 
 ### 🆔 身份与通信
 
