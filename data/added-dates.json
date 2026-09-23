@@ -225,7 +225,6 @@
  "https://github.com/huiliyi37/dsh-tianshu-tui": "2026-08-13",
  "https://github.com/hust-open-atom-club/oh-dsh": "2026-08-14",
  "https://github.com/icefall7/dsh-plugin-scout": "2026-08-15T01:06:37.661Z",
- "https://github.com/icetomoyo/dsh_workflow": "2026-08-13",
  "https://github.com/ilharp/dsh-tool-approval": "2026-08-13",
  "https://github.com/imetn/dsh-lark-bridge": "2026-08-14",
  "https://github.com/ishuowang/dsh-agent-team-room": "2026-08-15T01:01:33.356Z",
@@ -286,7 +285,6 @@
  "https://github.com/omdsh-dev/DSH-better-sidebar": "2026-08-14",
  "https://github.com/omdsh-dev/Qwen-MM-Plugins": "2026-08-13",
  "https://github.com/omdsh-dev/dsh-annotation": "2026-08-13",
- "https://github.com/omdsh-dev/dsh-at-file": "2026-08-13",
  "https://github.com/omdsh-dev/dsh-auto-chess": "2026-08-13",
  "https://github.com/omdsh-dev/dsh-custom-tool": "2026-08-13",
  "https://github.com/omdsh-dev/dsh-data-agent": "2026-08-13",
@@ -416,7 +414,6 @@
  "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck/tree/main/package": "2026-08-18",
  "https://github.com/Floating-Dreaming/dsh-minimax-usage/tree/main/trusted-plugin": "2026-08-16",
  "https://github.com/Jesse-njx/dsh-plugin-manager/tree/main/packages/cli": "2026-08-14",
- "https://github.com/Lum1104/dsh-browser/tree/main/packages/browser/bridge-browser": "2026-08-14",
  "https://github.com/UndeadSheep/dsh-file-preview/tree/main/packages/dsh-file-preview": "2026-08-18",
  "https://github.com/ZihaoVistonWang/Stata-AI-Skill/tree/main/dsh-plugin": "2026-08-16",
  "https://github.com/ayahunter/dsh-trail/tree/main/packages/bundle": "2026-08-17",
@@ -466,5 +463,8 @@
  "https://github.com/Jovan1666/commandcode-usage/tree/main/plugins/dsh": "2026-09-19",
  "https://github.com/slow-stack/dsh-mneme/tree/main/dsh-mneme": "2026-08-14",
  "https://github.com/XDTrees/dsh-workbuddy-xdpool": "2026-09-04",
- "https://github.com/VDERR/dsh-echocat-skill-panel": "2026-09-19"
+ "https://github.com/VDERR/dsh-echocat-skill-panel": "2026-09-19",
+ "https://github.com/FSMargoo/dsh-at-file": "2026-08-13",
+ "https://github.com/omdsh-dev/dsh-browser/tree/main/packages/browser/bridge-browser": "2026-08-14",
+ "https://github.com/omdsh-dev/dsh_workflow": "2026-08-13"
 }

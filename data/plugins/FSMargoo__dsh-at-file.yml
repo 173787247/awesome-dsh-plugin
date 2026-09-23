@@ -1,5 +1,5 @@
-url: https://github.com/omdsh-dev/dsh-at-file
-name: omdsh-dev/dsh-at-file
+url: https://github.com/FSMargoo/dsh-at-file
+name: FSMargoo/dsh-at-file
 category: ui
 description:
   en: 'Codex-style `@file` mentions: search workspace files in the composer and attach their contents to prompts.'

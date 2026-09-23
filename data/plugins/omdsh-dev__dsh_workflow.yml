@@ -1,5 +1,5 @@
-url: https://github.com/icetomoyo/dsh_workflow
-name: icetomoyo/dsh_workflow
+url: https://github.com/omdsh-dev/dsh_workflow
+name: omdsh-dev/dsh_workflow
 category: workflow
 description:
   en: 'UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer.'
