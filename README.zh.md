@@ -1512,6 +1512,7 @@ dsh plugin --profile web add dshmarket
 - [i1j/context-assembler-DSH](https://github.com/i1j/context-assembler-DSH) — DeepSeek Harness 上下文汇编插件：话题块上下文汇编、水位压力话题切割、工具轮压缩/改写、reality 召回注入与 handoff 规划。
 - [icanfinish11/dsh-context-mode](https://github.com/icanfinish11/dsh-context-mode) — 为 DeepSeek Harness 适配 Context Mode：进程内 ctx_* 工具（沙箱代码执行与 FTS5 知识库），并注入上下文窗口路由指引。
 - [Icstick/dsh-context-maid](https://github.com/Icstick/dsh-context-maid) — 自动上下文策展：tool 输出内容感知瘦身、无效日志清理、用户要求与进行中工作钉扎保护、先归档后压缩，全程审计留痕。
+- [idoall/dsh-session-colors](https://github.com/idoall/dsh-session-colors) — 给任意会话加上颜色标记：在侧栏显示色条、从会话头部选择颜色；标记保存在宿主上，一台设备选的颜色在其他设备上同样可见。
 - [ijry/DeepSeek-Harness-Desktop-Ultra#dsh-plugin-canvas](https://github.com/ijry/DeepSeek-Harness-Desktop-Ultra/tree/main/plugins/dsh-plugin-canvas) — 无限会话画布，区域绑定工作区与智能体预设，可钉住会话卡片、放置便签，带对齐参考线。
 - [imrascal/dsh-archive](https://github.com/imrascal/dsh-archive) — DeepSeek Harness 存档会话管理插件：在设置面板管理归档会话（恢复/删除）与回收站。
 - [ishuowang/dsh-rolehub-bridge](https://github.com/ishuowang/dsh-rolehub-bridge) — 发现并校验可移植的 RoleHub 角色，固定其精确 bundle，再将提示词和随角色打包的 Skills 加载到独立、可续聊的 DSH Session，以 Host 批准的工具绑定限制能力，并可选接入 Agent Team Room。
@@ -2471,6 +2472,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) — 提供 net_doctor 工具，报告代理环境、NODE_USE_ENV_PROXY，以及 DeepSeek API 与 npm registry 的连通性，并为 bash 和 npm 子进程设置 NODE_USE_ENV_PROXY。
 - [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) — 长任务结束后弹出 Windows 提示框。
 - [173787247/dsh-wsl-obscura](https://github.com/173787247/dsh-wsl-obscura) — 可选：在 WSL 中驱动 Obscura 无头浏览器（obscura_status / obscura_fetch / obscura_mcp_hint）。不同于 dsh-wsl-browser 的 win_open_url（打开 Windows 图形浏览器），也不替代 dsh-wsl-fetch 的 web_fetch。
+- [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) — 把 WSL 里的 dsh agent 接到 Windows NTFS 上的 Obsidian vault：提供 obsidian_status/list/search/read/write/append，并用 obsidian:// 打开 Windows 版 Obsidian。vault 请放在 /mnt/<盘符>/ 下以便监视文件变更；放在 Linux 盘经 \\wsl$ 打开不可靠。
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) — 把 DeepSeek Harness 聊天里的 WSL Linux 路径在 Windows 默认程序或资源管理器中打开。
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) — 在 WSL 下转换 Linux 与 Windows 路径，并说明 /mnt/c 注意点。
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) — 浏览 / 与 /mnt 下的 WSL 目录，便于挑选工作区。
