@@ -2494,6 +2494,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) - Probes nvidia-smi and GPU visibility inside WSL.
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.
 - [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) - Bridges Feishu, WeCom aibot, DingTalk Stream and QQ Gateway chats into dsh agents over outbound long connections, with an im_status tool. Ships with an empty user allowlist, which means EVERYONE can drive your agent — set allowedUserIds before exposing a bot; IM input can run tools on the host.
+- [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
