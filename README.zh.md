@@ -921,6 +921,7 @@ dsh plugin --profile web add dshmarket
 - [kongshan-zhuyu/dsh-balance-quota#dsh-balance](https://github.com/kongshan-zhuyu/dsh-balance-quota/tree/main/packages/dsh-balance) — DSH Web 的供应商余额与额度状态栏，支持模型能力设置、外部 JSON 健康监测、可视化字段绑定和逐模型状态详情。
 - [l956615272-hub/dsh-token-usage](https://github.com/l956615272-hub/dsh-token-usage) — 统计本机全部 DSH 会话的历史 token 消耗，按 message.id 去重，支持自定义日期区间与按接入方的月度额度剩余。
 - [LaoYueHanNi/dsh-token-usage](https://github.com/LaoYueHanNi/dsh-token-usage) — 详细的模型用量、费用分析，支持会话级用量统计，支持GLM、MiniMax、OpenCode Go、DS等用量查询。
+- [LAwLi3tCoding/dsh-api-ledger](https://github.com/LAwLi3tCoding/dsh-api-ledger) — 按 API 路由与模型配置单价，统计 Token 用量与估算费用，支持可选账单分组、同步切换 CNY/USD，以及会话报告、输入框费用和可点击的侧边栏今日金额。
 - [lcthe/dsh-usage-monitor](https://github.com/lcthe/dsh-usage-monitor) — DSH 用量监控：自动查询已配置 API Key 的供应商余额和时间窗口限制，支持输入框余量胶囊和自定义供应商。
 - [LeemanCheung/dsh-token-usage](https://github.com/LeemanCheung/dsh-token-usage) — 本地优先的四 bucket Token 可观测性：持久会话/provider/model/日期仪表盘、趋势、预算与异常信号、公开费率估算、安全聚合导出，以及显式触发的用量/会话轨迹分析。
 - [LemCAE/dsh-balance](https://github.com/LemCAE/dsh-balance) — 顶栏徽章与设置卡片展示 DeepSeek 账户余额与当前会话预估花费：暂停感知的自动刷新、可编辑官方价格表、`deepseek_balance` 模型工具与中英文界面。
@@ -3176,6 +3177,7 @@ dsh plugin --profile web add dshmarket
 - [RexYoung000/rex-harness#ui-workflow](https://github.com/RexYoung000/rex-harness/tree/main/packages/ui-workflow) — 把产品或界面需求编排成可落地的设计规格，提供 /ui-workflow 与 /ui-rerun。分析师通过只读 ui_analyst 运行，主控把报告写入 docs/ui-workflow。
 - [rinDBeans/dsh-apex-standard](https://github.com/rinDBeans/dsh-apex-standard) — DeepSeek V4 Pro/Flash 统一锚定 agent 预设（官方 API 与 opencode-go）：首请求 Minimal 精确两工具锚定、按模型分流 Pro/Flash 路径、epoch 感知目录管理保证长对话稳定。
 - [rocker2018-droid/dsh-longtask-orchestrator](https://github.com/rocker2018-droid/dsh-longtask-orchestrator) — 长任务编排闭环：Codex 规划/打分/审核，DeepSeek 执行，Kimi 补充（视觉验收/摘要/交叉验证）。
+- [RockingSisyphus/dsh-focus-supervisor#dsh-plugin](https://github.com/RockingSisyphus/dsh-focus-supervisor/tree/main/dsh-plugin) — 大肥鱼监工是 DSH 自制力助手：监督单次或循环任务，采集桌面证据、发送原生提醒，并可最小化或关闭分心的窗口、标签页和应用；支持 Windows 与 GNOME Wayland。
 - [sailoumili/novel-writer](https://github.com/sailoumili/novel-writer) — 为 DeepSeek Harness 安装一个多智能体小说创作预设：一个统筹队长派单五个专职子代理——架构世界、策划剧情、管理人物、执笔写文、质检复核。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) — 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — 通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。
