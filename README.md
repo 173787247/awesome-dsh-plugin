@@ -2484,10 +2484,12 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 ### WSL & Windows Interop
 
 - [173787247/dsh-wsl-browser](https://github.com/173787247/dsh-wsl-browser) - Opens http(s) URLs from WSL in the Windows default browser.
+- [173787247/dsh-wsl-cal](https://github.com/173787247/dsh-wsl-cal) - Read-only khal calendar list.
 - [173787247/dsh-wsl-clipboard](https://github.com/173787247/dsh-wsl-clipboard) - Reads and writes the Windows clipboard from WSL.
 - [173787247/dsh-wsl-clock](https://github.com/173787247/dsh-wsl-clock) - Detects WSL2 clock skew versus Windows that can break TLS and tokens.
 - [173787247/dsh-wsl-compose](https://github.com/173787247/dsh-wsl-compose) - Docker Compose ps/logs; up/down double-gated.
 - [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) - Safe Git Credential Manager hints for WSL without exposing secrets.
+- [173787247/dsh-wsl-db](https://github.com/173787247/dsh-wsl-db) - Read-only psql + redis-cli probes.
 - [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) - Reports the current WSL distro and warns about multi-distro setups.
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) - Compares WSL versus Windows DNS resolution for common endpoints.
 - [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) - Reports Docker CLI, context, and daemon reachability in WSL, plus vLLM :8000 /v1/models health and GPU runtime hints.
@@ -2499,6 +2501,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-fetch](https://github.com/173787247/dsh-wsl-fetch) - Registers a wsl-proxy ctx.web fetch provider so official web_fetch uses undici ProxyAgent through HTTP(S)_PROXY instead of connecting from WSL to a DNS-pinned public IP (the official path that produces TypeError: fetch failed behind a Windows proxy).
 - [173787247/dsh-wsl-git](https://github.com/173787247/dsh-wsl-git) - Capped Git status / diff --stat (no full patches).
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) - Uses a GitHub App to report open PRs and the latest Actions run for the current repo without returning secrets.
+- [173787247/dsh-wsl-glab](https://github.com/173787247/dsh-wsl-glab) - Read-only glab MR / issue / ci status.
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) - Probes nvidia-smi and GPU visibility inside WSL.
 - [173787247/dsh-wsl-helm](https://github.com/173787247/dsh-wsl-helm) - Read-only Helm list / status / history.
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.
@@ -2506,6 +2509,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs for dsh on WSL.
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
+- [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) - Mail list/search via himalaya / notmuch (no send).
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif.
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
@@ -2516,7 +2520,10 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browses WSL directories under / and /mnt for workspace picking.
+- [173787247/dsh-wsl-pkg](https://github.com/173787247/dsh-wsl-pkg) - Dependency tree summaries: npm / pip / cargo.
+- [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) - Headless Playwright fetch (title + body text) in WSL.
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.
+- [173787247/dsh-wsl-rclone](https://github.com/173787247/dsh-wsl-rclone) - Read-only rclone listremotes / lsf / about.
 - [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots.
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.

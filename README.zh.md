@@ -2484,10 +2484,12 @@ dsh plugin --profile web add dshmarket
 ### 🐧 WSL 与 Windows 互操作
 
 - [173787247/dsh-wsl-browser](https://github.com/173787247/dsh-wsl-browser) — 在 Windows 默认浏览器中打开来自 WSL 的 http(s) 链接。
+- [173787247/dsh-wsl-cal](https://github.com/173787247/dsh-wsl-cal) — 日历只读：khal list / today。
 - [173787247/dsh-wsl-clipboard](https://github.com/173787247/dsh-wsl-clipboard) — 从 WSL 读写 Windows 剪贴板。
 - [173787247/dsh-wsl-clock](https://github.com/173787247/dsh-wsl-clock) — 检测相对 Windows 的 WSL2 时钟偏差，避免 TLS 与 token 异常。
 - [173787247/dsh-wsl-compose](https://github.com/173787247/dsh-wsl-compose) — Docker Compose：ps/logs；up/down 需双重确认。
 - [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) — 提供 WSL 下 Git Credential Manager 的安全指引，不回传密钥。
+- [173787247/dsh-wsl-db](https://github.com/173787247/dsh-wsl-db) — psql / redis-cli 只读探针。
 - [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) — 报告当前 WSL 发行版，并提醒多发行版混用风险。
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) — 对比 WSL 与 Windows 对常用域名的 DNS 解析结果。
 - [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) — 报告 WSL 内 Docker CLI、context 与 daemon 是否可达，并探测 vLLM :8000 的 /v1/models 健康与 GPU runtime。
@@ -2499,6 +2501,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-fetch](https://github.com/173787247/dsh-wsl-fetch) — 在 ctx.web 注册 wsl-proxy 抓取后端，让官方 web_fetch 经 HTTP(S)_PROXY 用 undici ProxyAgent 出网，避免官方实现在 WSL 里 DNS 钉死后直连公网 IP，从而在 Windows 代理后出现 TypeError: fetch failed。
 - [173787247/dsh-wsl-git](https://github.com/173787247/dsh-wsl-git) — 截断版 Git status / diff --stat。
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) — 通过 GitHub App 查询当前仓库未关闭 PR 与最近一次 Actions，不回传密钥。
+- [173787247/dsh-wsl-glab](https://github.com/173787247/dsh-wsl-glab) — glab 只读：MR / issue / ci。
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) — 探测 WSL 内的 nvidia-smi 与 GPU 可见性。
 - [173787247/dsh-wsl-helm](https://github.com/173787247/dsh-wsl-helm) — Helm 只读：list / status / history。
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) — 从 WSL 探测 Windows 上的 Ollama、LM Studio、vLLM 与 llama-server，比对 ctx，并报告 /v1/models 的 apiReady 与 TCP 是否打通。
@@ -2506,6 +2509,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) — 对接 TypeSafe Jev / OpenRouter System One：jev_ask / jev_check / jev_rank。
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) — kubectl 只读：get / describe / logs。
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) — 从 WSL 白名单启动 Windows 应用（如 VS Code、资源管理器、浏览器）。
+- [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) — 邮件只读：himalaya / notmuch（不发送）。
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) — 本地媒体/文档管线：ffprobe、抽音轨、缩略图、PDF、ASR、pandoc、OCR、exif。
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) — 当工作区路径落在缓慢的 /mnt/c 上时发出告警。
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) — 提供 net_doctor 工具，报告代理环境、NODE_USE_ENV_PROXY，以及 DeepSeek API 与 npm registry 的连通性，并为 bash 和 npm 子进程设置 NODE_USE_ENV_PROXY。
@@ -2516,7 +2520,10 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) — 把 DeepSeek Harness 聊天里的 WSL Linux 路径在 Windows 默认程序或资源管理器中打开。
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) — 在 WSL 下转换 Linux 与 Windows 路径，并说明 /mnt/c 注意点。
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) — 浏览 / 与 /mnt 下的 WSL 目录，便于挑选工作区。
+- [173787247/dsh-wsl-pkg](https://github.com/173787247/dsh-wsl-pkg) — 依赖树摘要：npm / pip / cargo。
+- [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) — WSL 无头 Playwright 抓取标题与正文。
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) — 诊断 WSL 端口监听与 Windows localhost 转发，并对 dsh web 中继的 3080/3081 给出含 launch token 的 uiPlaybook。
+- [173787247/dsh-wsl-rclone](https://github.com/173787247/dsh-wsl-rclone) — rclone 只读：listremotes / lsf / about。
 - [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) — 沙箱 ripgrep / fd / ast-grep。
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) — 只读 pass / age 密钥（需 allowPrefixes）；默认不明文回显。
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) — 将 Windows 剪贴板中的图片保存为 WSL 文件。
