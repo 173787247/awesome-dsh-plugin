@@ -1865,6 +1865,7 @@ dsh plugin --profile web add dshmarket
 - [QuantumKuba/dsh-continuum](https://github.com/QuantumKuba/dsh-continuum) — 持久化项目记忆、事件溯源的任务生命周期、上下文预算控制与多智能体协作交接。
 - [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) — dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。
 - [rainow/dsh-simple-wiki-memory](https://github.com/rainow/dsh-simple-wiki-memory) — 超级简化版 llm-wiki 记忆插件：一个索引文档（自动加载）+ 每个主题一个 md 文件（需要时才读）——不会把所有东西塞进上下文烧 token。简单轻量，安装卸载无压力，想怎么改就怎么改。
+- [rasyidmmz/dsh-ai-memory](https://github.com/rasyidmmz/dsh-ai-memory) — DeepSeek Harness 与 ai-memory 之间的记忆桥梁：DSH 会话结束时调用 ai-memory 的 finalize-session，把已捕获的观察记录转成可检索的 wiki 页面。跳过子代理、排队处理并发结束的会话，并清扫因强制重启而遗留的会话。
 - [reatcat/l123-harness](https://github.com/reatcat/l123-harness) — 三级记忆 agent 底座：L1 常驻层、L2 索引、L3 详情骨架与模板，受保护文件门禁（一次性审批令牌），零判断事件日志，周审提炼与 TDD 执行流技能。
 - [rebron1900/dsh-mnemosyne](https://github.com/rebron1900/dsh-mnemosyne) — Mnemosyne 记忆插件 for DeepSeek Harness：提供 remember / recall / forget / stats / sleep 工具、内嵌技能、Settings 面板和可选的自动记忆功能。
 - [Relistencode/dsh-recall](https://github.com/Relistencode/dsh-recall) — 对话历史回忆：字面/模糊/语义三层检索全部历史会话的原始文本，完全本地离线——AI 再也不会忘记你说的话。一条命令安装（自带 `dsh.bundle.patch`），语义推理跑在 worker 线程。
