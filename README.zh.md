@@ -2257,6 +2257,7 @@ dsh plugin --profile web add dshmarket
 - [nicecx/insta360-ai-content-studio](https://github.com/nicecx/insta360-ai-content-studio) — Insta360 GO 3S 自动每日内容管线：BLE/WiFi 遥控拍摄鱼缸素材、无线取回、ffmpeg 质量评估与决策记录、自动剪辑（选段/旁白/配乐/字幕）、biliup 投稿（默认 dry-run）。
 - [NoneadChina/dsh-nonead-universal-robots](https://github.com/NoneadChina/dsh-nonead-universal-robots) — 让 DSH 用自然语言直接控制 Universal Robots（UR）机械臂的插件，由拓德科技（Nonead）基于自研的 nUR MCP Server 同源逻辑开发。（Suzhou Nonead Robot Technology Co., Ltd.）
 - [nononononofish/dsh-region](https://github.com/nononononofish/dsh-region) — 在下载超时或失败时，于 npmmirror 国内镜像与官方 npm 源之间自动切换下载源，并附带 Web UI 可手动查看与切换。
+- [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) — DSH 框架升级安全与插件升级门控：升级前跑「会话格式契约预检」（把不兼容的插件与 agent 预设扫出来先适配）、升级失败自动回滚、把拖垮过启动的插件自动隔离；另有环境指纹与公开契约规则库持续守门。内置多源插件市场只作发现层。
 - [Nrxous/dsh-context7](https://github.com/Nrxous/dsh-context7) — 通过 context7_search 与 context7_get_docs 工具，为 DSH 智能体从 context7.com 获取最新、可锁定版本的库文档与代码示例。
 - [nyantused-cpun/gewu-tools](https://github.com/nyantused-cpun/gewu-tools) — 面向纯文本 DSH 主脑的模型无关视觉审阅流水线：HTML 逐页截图 + 视觉子代理简报契约（gewu_prep），再把每条审阅发现定位回源码核验真值（gewu_locate）；已在 mimo-v2.5 与 qwen3.7-plus 上实测。
 - [omdsh-dev/dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — 用 Monaco 编辑器创建和管理沙箱化的自定义 JavaScript 工具。
@@ -4270,7 +4271,6 @@ dsh plugin --profile web add dshmarket
 - [MS666666/dsh-archive-manager](https://github.com/MS666666/dsh-archive-manager) — 归档管理：在设置页列出已归档会话，并可真正删除，连同会话日志、归档标记与投影缓存一并清理。
 - [nanshan1995/DSH-Plugin-Market](https://github.com/nanshan1995/DSH-Plugin-Market) — 另一款 DSH 插件市场：精选目录 + GitHub 实时浏览、中英互通搜索、安装前 fail-closed 静态安全审计（拦截安装钩子），每个插件可直接查看 README 且乱码自动修复。
 - [nonentity303/dsh-plugin-manager](https://github.com/nonentity303/dsh-plugin-manager) — 插件管理器与救砖中心：按必要程度分组启停、多更新源（npm / 插件超市 / GitHub）、浏览器下载优先与目录自动安装、P2P 兜底、启动前自检与坏包隔离。
-- [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) — 插件管理面板：已安装插件一键启用/停用，内置 GitHub dsh-plugin 插件市场，支持详情查看与一键安装。
 - [open-dshai/dsh-employee](https://github.com/open-dshai/dsh-employee) — 数字员工，整合专家、技能、连接器三大目录，支持浏览、收藏、召唤与发布，且无需改动宿主代码。
 - [Oscar-Williams/dsh-deepatlas](https://github.com/Oscar-Williams/dsh-deepatlas) — 任务感知的 DSH 插件导航：聚合 GitHub topic 与社区清单建立本地索引，按 28 类中英能力检索；提供 commit 级静态风险审计、用户确认后的锁定版本安装、组合验证与恢复流程。
 - [oxlyn/dsh-plugin-mgr](https://github.com/oxlyn/dsh-plugin-mgr) — 设置页卡片式插件管理：经 profile 补丁层启停插件（跨重启保留）、安装来源详情、npm 更新检查与一键更新、卸载、搜索与加载失败标识。
