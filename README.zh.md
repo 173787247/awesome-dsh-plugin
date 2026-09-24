@@ -1190,6 +1190,7 @@ dsh plugin --profile web add dshmarket
 - [yefengliu1/dsh-theme-songgrid](https://github.com/yefengliu1/dsh-theme-songgrid) — 宋律 Songgrid —— 宋代美学主题，宣纸（浅）与夜墨（深）双变体；汝窑天青承担交互态、窑铜只用于引用块；另附 4pt 间距阶与 46 个 mask 图标。
 - [Yinxe/deepseek-harness-plugins#web-style](https://github.com/Yinxe/deepseek-harness-plugins/tree/main/plugins/web-style) — Web 外观定制套件：7 套主题画廊（每套 122 个 --dsw-* token 全量映射）+ 设置页一键切换并持久化，Material You 壁纸取色一键生成整套动态配色（可导出 MD3 令牌），另带全局圆角三档。主题以官方 overrideTokens 覆盖层叠加在官方亮/暗之上，官方外观行永远合法可用。
 - [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield) — 《明日方舟：终末地》工业编辑风主题：奶油纸底、墨黑文字、全局直角，两套强调色配色（谷地黄信号黄 / 武陵青青碧色）可在设置切换，另有可选的等高线地形背景、ENDFIELD 水印与启动加载屏。
+- [yq1930/dsh-skin-asuka-p01](https://github.com/yq1930/dsh-skin-asuka-p01) — 非官方明日香主题皮肤：双人物精绘立绘、城市穹顶日夜背景，含表现方式、穹顶背景开关、立绘位置、背景强度和人物大小五项设置。
 - [YRN-playmaker/dsh-wallpaper_share](https://github.com/YRN-playmaker/dsh-wallpaper_share) — 把 Wallpaper Engine 当前应用的壁纸经本地桥接同步为 DSH Web 界面背景：预览/捕获/完整三档渲染、显示器锁定、本地与市场壁纸库面板、专注透镜与眼动追踪、沉浸模式，以及支持直链与网盘分享链接安装、一键启动的 Windows 应用启动器。
 - [yu502950715yang/dsh-use-wallpaper](https://github.com/yu502950715yang/dsh-use-wallpaper) — 把本机 Wallpaper Engine 壁纸放到 dsh Web 界面背后：scene 壁纸在浏览器内实时渲染（three.js 播放器 + Rust/WASM CPU 粒子模拟），视频与 web 壁纸原样播放，其余回退 preview 图，不需要安装 Wallpaper Engine 运行时。壁纸库从 Steam 创意工坊目录（431960）自动探测或手动指定，设置面板可选壁纸、配壁纸库与引擎目录、调光晕与暂停/画质。
 - [yunxiiQwQ/dsh-maid-whale-webUI#maid-whale-webui](https://github.com/yunxiiQwQ/dsh-maid-whale-webUI/tree/main/maid-whale-webui) — DSH Web UI 小鲸鱼女仆主题：亮暗配色、海洋插画、手绘边框、装饰素材与新增内置codex同款pet。
@@ -3089,6 +3090,7 @@ dsh plugin --profile web add dshmarket
 - [988hj7tczd-oss/dsh-workflow-templates](https://github.com/988hj7tczd-oss/dsh-workflow-templates) — 预置 Workflow 模板库：12 个可复用编排脚本模板，提供 wf_template_list / wf_template_search / wf_template_run / wf_template_validate 工具与模板格式静态校验。
 - [9931666/dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) — 把 DeepSeek Harness 会话变成可视化圆桌会议：环形专家拓扑、连线协作、汇聚网关、代理思考，以及「针锋相对」红队评审（观点支持/驳回）。
 - [a792883583/dsh-cron-panel](https://github.com/a792883583/dsh-cron-panel) — 定时任务面板：分区管理 DSH 与系统 crontab、自然语言生成表达式、执行日志与完成后消息推送。
+- [adithyanraj03/dsh-schedule-later](https://github.com/adithyanraj03/dsh-schedule-later) — Schedule a message into a dsh chat for later: a Schedule button in the message box with a date and time picker, a sidebar panel of pending messages across chats, delivery as a normal user message even with the browser closed, and schedule_message, list_scheduled_messages and cancel_scheduled_message tools so the model can come back to a chat on its own.
 - [alib8b8/dsh-plugin-aflare](https://github.com/alib8b8/dsh-plugin-aflare) — aflare 工作流工具：通过本地 aflare 二进制生成、校验并执行本地优先的确定性 YAML 工作流 DAG（WAL 崩溃恢复、Saga 补偿），内置 300+ 模板。
 - [alpacachen/dsh-automation](https://github.com/alpacachen/dsh-automation) — 在全新的 DSH 会话中运行单次或 RFC 5545 周期 Agent 任务，支持可视化计划编辑和会话关联历史。
 - [alpacachen/dsh-kanban](https://github.com/alpacachen/dsh-kanban) — 一个由用户与 DSH Agent 共同维护的工作区看板，通过看板标签页和 kanban 工具管理任务。
@@ -3193,6 +3195,7 @@ dsh plugin --profile web add dshmarket
 - [LeslieWylie/review-workflow](https://github.com/LeslieWylie/review-workflow) — 面向 DeepSeek Harness 的结构化多评审人评审工作流：N 个评审人在相互隔离、彼此不可见的 subagent 中独立打分；一名 chair 先按锚点匹配、再按 Δ 级别裁决来调和分歧；一名独立的 critic 负责审计整个评审过程。适用于设计、代码、论文或项目评审。
 - [Letter2025/dsh-model-failover](https://github.com/Letter2025/dsh-model-failover) — 两级模型熔断与回退：模型或平台连续失败后自动熔断，并把下一个请求路由到配置好的备用模型。
 - [Lhy723/dsh-agent-canvas](https://github.com/Lhy723/dsh-agent-canvas) — 为 DSH Web 提供可交互画布，用于展示 Agent、Subagent、Workflow、Phase 与工具调用之间的关系。
+- [liaowenqi123/dsh-meeting-coordinator](https://github.com/liaowenqi123/dsh-meeting-coordinator) — 给 DSH 会话装上会议室：加入会议室即同时获得召集权与参会义务，且一个会话只能属于一个会议室。召集时把每位参会者 fork 进场——带着它自己已完成的轮上下文，同时剥掉全部工具；主持人自身不带任何上下文，只负责挑下一位发言者；每条发言在说出的当下就落盘。散会后每人拿到一份只属于自己的纪要，作为一条用户输入送回工作区继续干活。
 - [limuyang2/agent-team](https://github.com/limuyang2/agent-team) — 为 DeepSeek Harness 提供多 Agent 团队协作，支持助手独立模型、Skills、MCP 服务与上下文，以及共享工作区、任务协调和会话管理。
 - [linkbag/dsh-swarm-orchestrator](https://github.com/linkbag/dsh-swarm-orchestrator) — DeepSeek Harness 的角色化 AI 蜂群：架构师规划、多个建造者并行执行、评审代理把关、集成代理收尾。按角色钉选模型（含回退链），支持评审循环、证据合约、人工评审门、配额耗尽自动暂停与恢复，Web GUI 内置实时看板与任务流程图。40 个测试用例；支持 GitHub 或 npm 安装。
 - [linxuhao/AItelier#integrations/dsh](https://github.com/linxuhao/AItelier/tree/main/integrations/dsh) — 从 DSH 经 MCP 运行 AItelier 流水线：39 个工具（22 读、17 写），用于生成、运行、查看、编辑、导出与导入多步 SkillFlow 流水线。步骤在 AItelier 中执行而不占用 DSH 会话，按 run_id 轮询，在引擎强制的检查点暂停并由 answer_checkpoint 应答，事后可读取逐步 trace 与各步输出；add_provider / map_model / edit_role 可把单个角色指向本地或更便宜的端点。随包附带 aitelier-pipelines skill。
@@ -3952,7 +3955,7 @@ dsh plugin --profile web add dshmarket
 - [apex-mochen/dsh-sandbox-arg-guard](https://github.com/apex-mochen/dsh-sandbox-arg-guard) — 让「同级或更窄的 sandbox_permissions」不再让工具调用直接失败。会升级的工具（pwsh、bash、write、edit）都广告完整的 sandbox_permissions 枚举，但 DSH 只接受严格更宽于当前生效级别的请求——其源码自称这是「deliberately not a schema constraint」。于是反射式带上该参数的模型往往填它已经在的那个级别，调用在执行前就死掉："sandbox escalation to \"workspace-write\" is not strictly wider than this call's current \"workspace-write\" mode"，某些模型还会为此烧掉一整轮重试。本插件只注册一个 tools/execute waterfall 监听器，且仅在那一条文档化拒绝上、且参数里确实带了升级字段时，把同一个调用去掉该参数重投一次。安全性由 DSH 自己的文档保证：拒绝发生在任何执行之前（"nothing has run"），且改过的参数无法再次匹配，因此重投在结构上不成环。已端到端复现并验证——改造前 isError 为 true 且命令从未执行；改造后拿到命令的真实输出、isError 为 false，会话里只有一个 tool/call 与一个 tool/result。零依赖。
 - [arrow949/dsh-turn-approval](https://github.com/arrow949/dsh-turn-approval) — DSH「允许本次任务」临时授权：仅在当前任务内自动放行同类 `danger-full-access` 请求，任务结束自动失效。
 - [ateen18/dsh-plugin-security-review](https://github.com/ateen18/dsh-plugin-security-review) — DSH 插件安全审查与运行时守卫：安装前静态审查（反混淆解码、供应链检测）、Web 一键审查/安装/卸载，以及可选的运行时工具调用拦截。
-- [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) — 为工作区指定子路径提供只读保护 (例如 .git), 并支持在 workspace-write 下声明额外可写根。
+- [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) — 为 DSH 沙箱增加工作区子路径只读保护 (例如 .git), 支持工作区根下的只读规则文件, 可在 workspace-write 下声明额外可写根, 并允许模型申请本会话的可写授权; 命令沙箱与 write/edit 工具都生效.
 - [Baiiduu/dsh-semgrep-sast#semgrep-sast](https://github.com/Baiiduu/dsh-semgrep-sast/tree/main/packages/bundle) — 面向 DeepSeek Harness 的工作区内 Semgrep SAST 工具，提供托管 Windows x64 运行时、结构化有界结果、取消与超时控制，以及经用户批准的沙箱权限升级。npm 包名为 @aaub-software/dsh-semgrep-sast。
 - [BaqiF2/dsh-plugin-precheck](https://github.com/BaqiF2/dsh-plugin-precheck) — DSH 插件安装前兼容性门控：锁定解析版本、校验 peer/engines 声明、在隔离 DSH_HOME 中试装并限时试启动，任一失败即阻止；正式安装失败自动还原 profile。可选拦截 dsh-market 的安装/更新点击。
 - [bigclawd/dsh-security-guard](https://github.com/bigclawd/dsh-security-guard) — dsh 安全守卫插件：基于规则的静态扫描覆盖恶意代码、提示词注入与令牌浪费，运行时拦截危险工具调用，提供 /scan 命令、plugin_scan 工具、Web 面板与白名单。
@@ -4320,6 +4323,7 @@ dsh plugin --profile web add dshmarket
 - [daixin315/dsh-xiaoshuang#plugin](https://github.com/daixin315/dsh-xiaoshuang/tree/master/packages/plugin) — 小双桌面宠物人格：六层记忆、人设注入、跟随 agent 状态的视频形象、手动表情菜单与 TTS 语音回复。
 - [DamonKoy/dsh-web-ui#dsh-pet](https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-pet) — dsh web GUI 多桌宠伴侣：注册表驱动的悬浮宠物，随模型活动实时反应。
 - [dleaf6211-hash/dsh-whale-pet](https://github.com/dleaf6211-hash/dsh-whale-pet) — DeepSeek Harness 的鲸鱼娘桌宠：浏览器悬浮桌宠与 Windows 桌面桌宠共享一套数据，实时余额木牌、任务通知、摸头互动、19 句预合成带情感的台词朗读，空闲节奏随是否在场自适应。
+- [Eapp1e/dsh-poker](https://github.com/Eapp1e/dsh-poker) — DeepSeek Harness 的德州扑克插件：无限注规则、机器人对手、真实感牌桌，教练模式讲解打法与赔率。
 - [Entaum/dsh-free-games](https://github.com/Entaum/dsh-free-games) — 在 DeepSeek Harness Web 侧边栏中添加 Spawnd.gg 游戏柜，支持搜索、排序、悬停预览、嵌入式游玩和最小化播放器。
 - [eric-song-dev/dsh-ikun-pet](https://github.com/eric-song-dev/dsh-ikun-pet) — ikun 桌宠填满「Deep diving...」状态行下方整行区块：坤宠动图沿 0%→100% 进度条行走，每 20% 切换动作与文案，完成时系统级播放「你干嘛~哎哟」提示音。
 - [falser101/dsh-mascot](https://github.com/falser101/dsh-mascot) — 可拖拽的猫狗悬浮伴侣，表情随当前会话变化，在 Companion 设置页里换皮肤。
