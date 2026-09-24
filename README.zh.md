@@ -4435,12 +4435,12 @@ description:
   zh: 一句话描述，以句号结尾。
 ```
 
-一个插件一个文件，两份投稿永远不会碰同一个文件，PR 之间不再互相冲突。执行 `node scripts/generate-readme.mjs` 重新生成两个 README，并把结果一起提交。
+一个插件一个文件，两份投稿永远不会碰同一个文件，PR 之间不再互相冲突。你不需要跑任何命令：两个 README 会在你的 PR 合并后由 `main` 重新生成。想在本地预览可以跑，把结果一起提交也照样接受，但不是必需的。
 
 你的仓库需要满足：
 
 - `package.json` 声明 **`dsh.bundle`** —— 只有 `dsh.client` 无法安装；每个 PR 都会自动校验这一项
-- 仓库**创建满 1 天**且**提交数 ≥ 10** —— 刚建的仓库达标后可以重新提交
+- 仓库**创建满 1 天** —— 刚建的仓库达标后可以重新提交。（没有提交数门槛：历史长短反映的是开发习惯而非质量。）
 - 已添加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic
 
 主题/皮肤类插件：放进**主题与外观**分类，会自动出现在 [dsh-market](https://github.com/dsh-market/dsh-market) 插件市场的**主题 Tab**，用户可一键安装、切换。

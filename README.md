@@ -4435,12 +4435,12 @@ description:
   zh: 一句话描述，以句号结尾。
 ```
 
-One file per plugin means two submissions never touch the same file, so PRs stop conflicting with each other. Run `node scripts/generate-readme.mjs` to refresh both READMEs, and commit the result.
+One file per plugin means two submissions never touch the same file, so PRs stop conflicting with each other. You don't need to run anything: both READMEs are regenerated on `main` after your PR merges. Regenerating locally to preview is fine, and committing the result is still accepted, but it isn't required.
 
 Your repo must:
 
 - declare a **`dsh.bundle`** manifest in `package.json` — `dsh.client` alone is not installable, and this is checked automatically on every PR
-- be at least **1 day old** with **10 or more commits** — brand-new repos can resubmit once they clear this
+- be at least **1 day old** — brand-new repos can resubmit once they clear this. (There is no commit-count bar: history length measures development habit, not quality.)
 - carry the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic
 
 Themes & skins: entries under **Themes & Appearance** power the Themes tab in `dsh-market` — one-click install/switch for users.
