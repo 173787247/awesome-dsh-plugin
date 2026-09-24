@@ -2501,19 +2501,25 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.
 - [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) - Bridges Feishu, WeCom aibot, DingTalk Stream and QQ Gateway chats into dsh agents over outbound long connections, with an im_status tool. Ships with an empty user allowlist, which means EVERYONE can drive your agent — set allowedUserIds before exposing a bot; IM input can run tools on the host.
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
+- [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs for dsh on WSL.
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
+- [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif.
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
 - [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) - Shows a Windows MessageBox when a long WSL task finishes.
 - [173787247/dsh-wsl-obscura](https://github.com/173787247/dsh-wsl-obscura) - Optional Obscura headless-browser tools from WSL (obscura_status / obscura_fetch / obscura_mcp_hint). Not the same as dsh-wsl-browser win_open_url (Windows GUI browser), and not a replacement for dsh-wsl-fetch web_fetch.
 - [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) - Bridges a WSL dsh agent to a Windows Obsidian vault on NTFS: obsidian_status/list/search/read/write/append, plus obsidian:// open via the Windows app. Keep the vault under /mnt/<drive>/ so Obsidian can watch files; Linux-disk vaults via \\wsl$ are unreliable.
+- [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) - Local Ollama status / list / chat / embed for dsh on WSL.
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browses WSL directories under / and /mnt for workspace picking.
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.
+- [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots.
+- [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) - Writes a Windows shortcut and tray launcher to start dsh web in WSL, with Health/Restart and the :3081 launch-token URL.
+- [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem.
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) - Lists WSL distros and validates a Linux workspace path for DSH.
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) - Gives read-only advice for Windows .wslconfig memory and mirrored networking.
 - [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) - Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local WSL distribution on the host machine, while Windows files remain accessible.
