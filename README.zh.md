@@ -763,6 +763,7 @@ dsh plugin --profile web add dshmarket
 - [yangshen830-eng/dsh-editor](https://github.com/yangshen830-eng/dsh-editor) — VS Code 风格代码编辑器：侧边栏文件树浏览工作区，Monaco 编辑，文件读写，Git 状态与差异，搜索与 Markdown 预览。
 - [YannZhou/dsh-about](https://github.com/YannZhou/dsh-about) — 在 DeepSeek Harness 设置中心增加「关于」分区：版本信息、npm 检查更新与一键安装（自动重启）、GitHub 版本更新记录。
 - [yaoshuo530/dsh-prompt-enhancer](https://github.com/yaoshuo530/dsh-prompt-enhancer) — 输入框提示词增强：✨ 增强按钮用第一性原理、结合会话上下文/记忆/最近对话，把草稿扩写为更清晰、更结构化的提示词；关键信息缺失时以提问卡片澄清，预览确认后再应用到输入框。
+- [yefengliu1/dsh-agent-grid](https://github.com/yefengliu1/dsh-agent-grid) — 把 DSH 侧栏换成固定的 2×4 八席看板，每席显示自己的状态、最近一次工具调用、思考与结果；设置里的开关可随时切回原生侧栏。
 - [YEYEYEYESHIFU/dsh-result-only-view](https://github.com/YEYEYEYESHIFU/dsh-result-only-view) — Web 对话「只看结果」开关：隐藏思考与工具调用过程，运行中仅保留一条实时状态行，reduced-motion 环境下恢复活动光影，中英双语。原生输入框与 dsh-split-screen 分屏面板内均可用；已适配 DSH 0.1.1 与 0.1.5。
 - [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) — DeepSeek Harness 网页端分屏工作区 - 多个会话并排聊天，面板观感与原生对话完全一致：拖拽分屏、实时会话（排队消息、面板内 ask_user/审批卡片）、面板内视图标签（Chat/Trajectory/插件视图）、Alt+T 紧凑 TUI 输入模式与面板焦点快捷键。需要 DSH 0.1.5+。
 - [Yinxe/deepseek-harness-plugins#file-change-viewer](https://github.com/Yinxe/deepseek-harness-plugins/tree/main/plugins/file-change-viewer) — 接管对话流的 edit/write 行：外壳与折叠沿用官方原生行，展开后每个文件一张代码卡片——文件类型图标、增删统计、块级折叠、高亮/±差异切换、语法高亮统一 diff（行号为文件真实行号），改动两侧多显示可调的上下文行。另带 patch 工具（测试版，默认关）：一次调用把多处零散修改/多文件补丁原子化应用（*** Begin Patch 信封，全有或全无）。
