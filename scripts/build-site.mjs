@@ -178,6 +178,9 @@ const starsMap = fs.existsSync('data/stars.json') ? JSON.parse(fs.readFileSync('
 // already refuses to WRITE the file on a bad run, so whatever is on disk is
 // the last known-good result, or nothing yet.
 const downloadsMap = fs.existsSync('data/downloads.json') ? JSON.parse(fs.readFileSync('data/downloads.json', 'utf8')) : {}
+// Capability disclosure (#401), from probe-capabilities.mjs. An entry absent
+// here was NOT scanned — the surfaces print that as 未检出, never as clean.
+const capabilitiesMap = fs.existsSync('data/capabilities.json') ? JSON.parse(fs.readFileSync('data/capabilities.json', 'utf8')) : {}
 
 // Publishing is the last chance to notice that a data file arrived empty, and
 // the only one that matters to consumers: docs/ is deployed straight to Pages,
@@ -435,6 +438,9 @@ for (const e of ordered) {
   // entries with no npm package at all — a coverage gap, not a zero.
   // Consumers must tell "not published" apart from "published, unused".
   e.downloads = downloadsMap[e.url]?.downloads ?? null
+  e.capabilities = capabilitiesMap[e.url]?.capabilities ?? null
+  e.capabilityRedLines = capabilitiesMap[e.url]?.redLines ?? null
+  e.capabilityCheckedAt = capabilitiesMap[e.url]?.scannedAt ?? null
   // registry dist-tags.latest from probe-npm.mjs. null when not on npm, OR
   // when probed but no latest tag was available. A published row whose map
   // entry still lacks the `version` key has not been backfilled yet — after
@@ -1034,6 +1040,14 @@ const registry = {
       downloadsStart: downloadsMap[e.url]?.start ?? null,
       downloadsEnd: downloadsMap[e.url]?.end ?? null,
       downloadsCheckedAt: downloadsMap[e.url]?.checkedAt ?? null,
+      // Capability disclosure (#401). Omitted entirely when the entry was not
+      // scanned, so a consumer cannot read "absent" as "empty" — the market
+      // renders a missing pair as 未检出 / not checked.
+      ...(capabilitiesMap[e.url] === undefined ? {} : {
+        capabilities: capabilitiesMap[e.url].capabilities,
+        capabilityRedLines: capabilitiesMap[e.url].redLines,
+        capabilityCheckedAt: capabilitiesMap[e.url].scannedAt,
+      }),
       install: e.npm ? `dsh plugin --profile web add ${e.npm}` : (e.cmdTarball ?? e.cmdGit),
       added: e.added,
       // Optional, author-maintained (data/screenshots.json); omitted when
