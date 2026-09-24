@@ -1,0 +1,6 @@
+url: https://github.com/Breeze136/dsh-kb-rag/tree/main/npm-package
+name: Breeze136/dsh-kb-rag#npm-package
+category: memory
+description:
+  en: 'Local literature knowledge-base RAG: 10 tools (kb_ingest, kb_search, kb_rag, kb_zotero, kb_dedup, kb_clear, kb_fetch, kb_scope, kb_stats, kb_status), hybrid BM25+vector+reranker search, cited QA with clickable DOI links, all-local bge embeddings over a single-file SQLite index.'
+  zh: '本地文献知识库 RAG：10 个工具（kb_ingest、kb_search、kb_rag、kb_zotero、kb_dedup、kb_clear、kb_fetch、kb_scope、kb_stats、kb_status），BM25+向量+重排混合检索、DOI 可点击溯源问答，全本地 bge 嵌入 + 单文件 SQLite 索引。'
