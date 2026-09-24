@@ -2511,6 +2511,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) — 对接 TypeSafe Jev / OpenRouter System One：jev_ask / jev_check / jev_rank。
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) — kubectl 只读：get / describe / logs。
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) — 从 WSL 白名单启动 Windows 应用（如 VS Code、资源管理器、浏览器）。
+- [173787247/dsh-wsl-llamacpp](https://github.com/173787247/dsh-wsl-llamacpp) — 对接 llama.cpp / Unsloth 的 OpenAI 兼容接口（默认 :8080）。
 - [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) — 邮件只读：himalaya / notmuch（不发送）。
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) — 本地媒体/文档管线：ffprobe、抽音轨、缩略图、PDF、ASR、pandoc、OCR、exif。
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) — 当工作区路径落在缓慢的 /mnt/c 上时发出告警。
@@ -2530,11 +2531,13 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) — 只读 pass / age 密钥（需 allowPrefixes）；默认不明文回显。
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) — 将 Windows 剪贴板中的图片保存为 WSL 文件。
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) — 提示如何把 Windows OpenSSH agent 转发进 WSL，且不输出密钥。
+- [173787247/dsh-wsl-struct](https://github.com/173787247/dsh-wsl-struct) — 沙箱化 jq / yq / sqlite3（只读 SELECT）。
 - [173787247/dsh-wsl-systemd](https://github.com/173787247/dsh-wsl-systemd) — systemd --user 只读：list / show / journal。
 - [173787247/dsh-wsl-terraform](https://github.com/173787247/dsh-wsl-terraform) — Terraform/OpenTofu：plan 摘要 + state list（永不 apply）。
 - [173787247/dsh-wsl-tmux](https://github.com/173787247/dsh-wsl-tmux) — 只读查看 tmux 会话与 pane 输出。
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) — 生成 Windows 快捷方式与托盘启动器，在 WSL 中启动 dsh web，并提供 Health/Restart 与 :3081 launch token 地址。
 - [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) — 本地向量小记：Ollama embedding + ~/.dsh/vecmem。
+- [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) — 对接 vLLM 的 OpenAI 兼容服务（默认 :8000）。
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) — 列出 WSL 发行版并校验可用于 DSH 的 Linux 工作区路径。
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) — 只读查看 Windows .wslconfig，并给出内存与 mirrored 网络建议。
 - [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) — 从 Web GUI 添加 WSL 工作区，无需在 WSL 之中再次安装 dsh 以及相关工具，bash 命令与文件读写运行在本机 WSL 发行版内，Windows 文件仍可访问。
@@ -3243,6 +3246,7 @@ dsh plugin --profile web add dshmarket
 - [sailoumili/novel-writer](https://github.com/sailoumili/novel-writer) — 为 DeepSeek Harness 安装一个多智能体小说创作预设：一个统筹队长派单五个专职子代理——架构世界、策划剧情、管理人物、执笔写文、质检复核。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) — 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — 通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。
+- [Saretheya/dsh-tick](https://github.com/Saretheya/dsh-tick) — 会话内定时任务：按延迟、固定时刻或重复间隔向当前会话注入一段提示词，到点唤醒模型执行。可用输入框上方面板、/schedule 命令、或 7 个面向模型的工具管理。DSH 关闭期间计时冻结、绝不自动恢复；暂停保留剩余时间，恢复后从原处继续。
 - [Sev7een/dsh-plugin-automations](https://github.com/Sev7een/dsh-plugin-automations) — 设置页定时任务：支持准点或 DeepSeek 谷时段执行、单次/每日重复，并持久化任务状态。
 - [severin-ye/uagent-sync#packages/dsh](https://github.com/severin-ye/uagent-sync/tree/master/packages/dsh) — 工作区跨设备备份、恢复与扩展更新，经 uagent-sync CLI 桥接执行。
 - [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) — 为 DeepSeek Harness 提供原生对话生图能力：直接让 Agent 画图，插件自动完成生成并把结果保留在当前会话中。

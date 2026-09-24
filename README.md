@@ -2511,6 +2511,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs for dsh on WSL.
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
+- [173787247/dsh-wsl-llamacpp](https://github.com/173787247/dsh-wsl-llamacpp) - OpenAI-compatible client for llama.cpp / Unsloth Desktop (default :8080).
 - [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) - Mail list/search via himalaya / notmuch (no send).
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif.
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
@@ -2530,11 +2531,13 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
+- [173787247/dsh-wsl-struct](https://github.com/173787247/dsh-wsl-struct) - Sandboxed jq / yq / read-only sqlite3.
 - [173787247/dsh-wsl-systemd](https://github.com/173787247/dsh-wsl-systemd) - Read-only systemd --user list / show / journal.
 - [173787247/dsh-wsl-terraform](https://github.com/173787247/dsh-wsl-terraform) - Terraform/OpenTofu plan summary + state list (never apply).
 - [173787247/dsh-wsl-tmux](https://github.com/173787247/dsh-wsl-tmux) - Read-only tmux list + capture-pane.
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) - Writes a Windows shortcut and tray launcher to start dsh web in WSL, with Health/Restart and the :3081 launch-token URL.
 - [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem.
+- [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) - OpenAI-compatible vLLM client (default :8000).
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) - Lists WSL distros and validates a Linux workspace path for DSH.
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) - Gives read-only advice for Windows .wslconfig memory and mirrored networking.
 - [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) - Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local WSL distribution on the host machine, while Windows files remain accessible.
@@ -3243,6 +3246,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [sailoumili/novel-writer](https://github.com/sailoumili/novel-writer) - Installs a multi-agent novel-writing preset for DeepSeek Harness: one conductor agent dispatches five specialized subagents — world-building, plotting, character management, prose writing, and QA review.
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - Model high-availability failover (quarantine, circuit breaking, probe recovery) and subagent orchestration (fanout/pipeline/supervisor) with bilingual settings UI.
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - Connects dsh to a local SandBase Harness runtime over stdio MCP for managing agents and sessions, streaming turns, inspecting artifacts and cancelling work.
+- [Saretheya/dsh-tick](https://github.com/Saretheya/dsh-tick) - Session-local scheduled tasks: inject a prompt into the current session after a delay, at a fixed time, or on a repeating interval, so the model wakes up and runs it on time. Manage them from a panel above the composer, the /schedule command, or seven model-facing tools. Timers freeze while DSH is closed and never auto-resume; pause keeps the remaining time, so resuming continues from where it stopped.
 - [Sev7een/dsh-plugin-automations](https://github.com/Sev7een/dsh-plugin-automations) - Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state.
 - [severin-ye/uagent-sync#packages/dsh](https://github.com/severin-ye/uagent-sync/tree/master/packages/dsh) - Cross-device workspace backup, restore, and ecosystem update via the uagent-sync CLI.
 - [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Native conversational image generation for DeepSeek Harness: ask the agent to create an image, and it handles generation and keeps the result directly in the conversation.
