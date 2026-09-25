@@ -200,6 +200,7 @@ dsh plugin --profile web add dshmarket
 - [CH4ACKO3/dsh-turn-fold](https://github.com/CH4ACKO3/dsh-turn-fold) — 面向 DSH Web UI 的 Codex 风格回合折叠：保留最终答复，合并连续的推理与工具活动，并以多语言摘要展示可配置的实时耗时、工具调用和 token 指标。
 - [chaochaokongbai/dsh-beginner-hub](https://github.com/chaochaokongbai/dsh-beginner-hub) — 面向 DSH 新手的说人话需求路由面板：用本地关键词引擎把一句大白话需求路由成可直接用的方案（提问话术变体、匹配技能、进阶玩法），选中的方案可一键填入新会话。
 - [charrywhite/dsh-sticky-notes](https://github.com/charrywhite/dsh-sticky-notes) — 可拖动的便签纸,9 款皮肤与图片便签,AI 模型可读取并追加待办条目。
+- [CheeseFox259/dsh-better-composer](https://github.com/CheeseFox259/dsh-better-composer) — 为 DSH Web Composer 提供 Markdown 实时视觉呈现、本地补全、超长粘贴转引用及会话上下文地图。
 - [chen731215-dev/dsh-muv-engine](https://github.com/chen731215-dev/dsh-muv-engine) — MUV 引擎：执行角色卡的 regex_scripts 实时替换模型输出，追踪变量、渲染状态栏、展开宏与 LaTeX、为标签代码块（信纸／终端／报纸／手机）套样式。需同时安装伴生插件 dsh-muv-table。
 - [chen731215-dev/dsh-muv-table](https://github.com/chen731215-dev/dsh-muv-table) — MUV 变量表格编辑器：树形变量面板、宏测试浮窗（random／pick／roll）、骰子快捷栏与 pick 缓存管理。dsh-muv-engine 的伴生插件。
 - [chen8923/dsh-task-progress](https://github.com/chen8923/dsh-task-progress) — DSH 长任务的实时进度：脚本往该会话自己的进度文件追加 JSON 行，不能自报进度的命令可用 `dsh-progress run -- <cmd>` 包装，Web 界面用悬浮窗与右侧栏 tab 展示，未上报的后台任务也会列成任务行。
