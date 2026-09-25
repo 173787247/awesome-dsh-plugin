@@ -238,6 +238,7 @@ dsh plugin --profile web add dshmarket
 - [DamonKoy/dsh-web-ui#dsh-task-board](https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-task-board) — dsh web GUI 任务看板：侧边栏入口 + 多列看板视图，本地持久化。
 - [DamonKoy/dsh-web-ui#dsh-web-ui-settings](https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-web-ui-settings) — dsh 设置页的 Web UI 插件组卡片：dsh-web-ui 全家插件的开关与配置。
 - [dannyvan/dsh-file-drop](https://github.com/dannyvan/dsh-file-drop) — 拖拽/点击上传任意非图片文件（PDF/Word/Excel/ZIP/文本）到输入框：桌面壳下直取 Finder 原始路径；无壳时上传到工作区并插入路径。
+- [DanZai233/dsh-webask](https://github.com/DanZai233/dsh-webask) — 在输入框旁加一个按钮，并提供全局快捷键（默认 mod+shift+k）浮层，把一次性的小问题交给网页版对话而不是送进 harness 上下文：草稿会从输入框取出、复制到剪贴板并打开模板 URL。内置目标站点预设（DeepSeek、Kimi、Qwen、豆包、腾讯元宝、GLM、Gemini），带本地问题历史（可重新打开、复制或回填到输入框），以及设置页（站点、URL 模板、快捷键、剪贴板、历史）。
 - [dcrzsy/dsh-enhance-tool](https://github.com/dcrzsy/dsh-enhance-tool) — DeepSeek Harness Web 一站式界面增强：提示词库（快选+管理）、两步 AI 润色、预测回复栏（点击直接发送）、MCP 工具管理、定时自动化、智能会话标题、对话宽度可调、AI 回复占满无灰底、超长用户消息自动折叠（带平滑展开/收起动效），以及各面板的场景化入场动效。
 - [DDSG-X/dsh-workspace-dir](https://github.com/DDSG-X/dsh-workspace-dir) — 在可拖动、透明度可调的目录面板中显示当前对话的工作目录与文件列表。
 - [deanzhang2026-max/dsh-lived-pet#dsh-pet-bridge](https://github.com/deanzhang2026-max/dsh-lived-pet/tree/main/packages/dsh-pet-bridge) — 把 harness agent 的实时状态（思考、干活、等待、完成、出错）写入状态文件，配套的 Electron Live2D 桌宠轮询该文件，气泡与表情随 agent 的实际动作变化。
@@ -799,6 +800,7 @@ dsh plugin --profile web add dshmarket
 - [yunxiyang/dsh-wide-conversation](https://github.com/yunxiyang/dsh-wide-conversation) — 把 DSH Web 客户端对话列宽度设为其自身宽度的百分比（40–100，默认 100 即铺满整列），取代内置的 680–920px 阅读宽度，并在「设置 > 插件」中提供可折叠的调整卡片。
 - [Yur0918/dsh-sidepanel](https://github.com/Yur0918/dsh-sidepanel) — DSH Web 界面的 Codex 式右侧面板——会话产物浏览（文件树、扫描收录、预览、访达定位）+ 继承当前会话上下文的侧聊，支持模型选择器、拟人化定时调用、发送吸顶与智能滚动。
 - [Yur0918/dsh-soul](https://github.com/Yur0918/dsh-soul) — DeepSeek Harness 个性化设置：9 种回复风格、自定义指令、人设卡、会话级切换、带审计的长期记忆。
+- [yusufameri/dsh-t3-model-picker](https://github.com/yusufameri/dsh-t3-model-picker) — 把 T3 Code 的模型选择器移植到 DSH 输入框：提供方侧栏、按提供方分组的搜索结果、浏览器本地收藏、不可用提供方标记，以及用 Cmd/Ctrl+1..9 直接选中可见列表的前九行。
 - [Yuuhann1999/dsh-bloub-mood](https://github.com/Yuuhann1999/dsh-bloub-mood) — 动态心情图标：favicon、侧栏字标与首页标题随会话状态切换 bloub 表情动画（执行中 / 等输入 / 完成 / 空闲），8 种形状、12 种颜色与自定义文字均可在设置页配置。
 - [YZz-S/dsh-workspace-files-explorer](https://github.com/YZz-S/dsh-workspace-files-explorer) — 悬浮工作区文件树浏览器：带行号的代码语法高亮与 Markdown 富文本预览。
 - [zclDragon/dsh-side-chat](https://github.com/zclDragon/dsh-side-chat) — Codex 风格 /side 侧边对话插件：在当前对话旁开一个浮动分叉面板，继承上下文、不打断主任务。
