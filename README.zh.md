@@ -772,6 +772,7 @@ dsh plugin --profile web add dshmarket
 - [yefengliu1/dsh-agent-grid](https://github.com/yefengliu1/dsh-agent-grid) — 把 DSH 侧栏换成固定的 2×4 八席看板，每席显示自己的状态、最近一次工具调用、思考与结果；设置里的开关可随时切回原生侧栏。
 - [YEYEYEYESHIFU/dsh-result-only-view](https://github.com/YEYEYEYESHIFU/dsh-result-only-view) — Web 对话「只看结果」开关：隐藏思考与工具调用过程，运行中仅保留一条实时状态行，reduced-motion 环境下恢复活动光影，中英双语。原生输入框与 dsh-split-screen 分屏面板内均可用；已适配 DSH 0.1.1 与 0.1.5。
 - [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) — DeepSeek Harness 网页端分屏工作区 - 多个会话并排聊天，面板观感与原生对话完全一致：拖拽分屏、实时会话（排队消息、面板内 ask_user/审批卡片）、面板内视图标签（Chat/Trajectory/插件视图）、Alt+T 紧凑 TUI 输入模式与面板焦点快捷键。需要 DSH 0.1.5+。
+- [yicun0316/dsh-claude-slider](https://github.com/yicun0316/dsh-claude-slider) — 把推理强度下拉菜单换成可拖拽吸附的滑块，并提供 13 款 Canvas 动效，分属推进、流体、幻境、科技、质感五个家族；动效随推理档位分三阶递进解锁。客制动效可自由组合 10 种粒子形态与 8 种流动轨迹；9 款预设主题色与 Hex 拾色器让全部动效跟随变色，档位吸附音效支持两段语音、合成鸭子叫、机械微触感与本地音频文件。
 - [Yinxe/deepseek-harness-plugins#file-change-viewer](https://github.com/Yinxe/deepseek-harness-plugins/tree/main/plugins/file-change-viewer) — 接管对话流的 edit/write 行：外壳与折叠沿用官方原生行，展开后每个文件一张代码卡片——文件类型图标、增删统计、块级折叠、高亮/±差异切换、语法高亮统一 diff（行号为文件真实行号），改动两侧多显示可调的上下文行。另带 patch 工具（测试版，默认关）：一次调用把多处零散修改/多文件补丁原子化应用（*** Begin Patch 信封，全有或全无）。
 - [YiRan0/dsh-mobile-glass](https://github.com/YiRan0/dsh-mobile-glass) — DSH Web 移动端适配：窄屏下聊天页在上/侧栏在下的 reveal 抽屉、拖动手势、设置面板底部卡片上滑、composer 与头部修复，桌面端零影响。
 - [yishengjun8/dsh-workspace-studio](https://github.com/yishengjun8/dsh-workspace-studio) — 三栏工作区布局，提供文件树浏览、编辑文件、非线性会话导图视图，并且支持手机模式。
@@ -1560,6 +1561,7 @@ dsh plugin --profile web add dshmarket
 - [jasonrale/dsh-archive-manager](https://github.com/jasonrale/dsh-archive-manager) — DSH Web UI 的归档会话管理器：重新打开已归档会话并继续对话、取消归档恢复原位、彻底删除会话，支持分组浏览、消息搜索与原生视图同步。
 - [jermaine123123/agent-context-editor#deepseek-harness](https://github.com/jermaine123123/agent-context-editor/tree/main/adapters/deepseek-harness) — Agent Context Editor 是一个可以手动排除、编辑和选择性压缩 AI 对话上下文的跨 Agent 插件，同时支持搜索、筛选、选择、隐藏、恢复和撤销对话内容，并保留原始 Session。
 - [Jesse-njx/dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息：本机任意会话都可像 Claude Code 一样列出并互发消息，基于本地心跳注册表与收件箱。
+- [JessenReinhart/dsh-snapcompact](https://github.com/JessenReinhart/dsh-snapcompact) — Bitmap-frame context compression plugin for DeepSeek Harness: renders discarded conversation history into pixel-font PNG frames for vision-capable models.
 - [john-walks-slow/dsh-message-datetime](https://github.com/john-walks-slow/dsh-message-datetime) — 每轮对话开始向模型上下文注入单行时间戳读数（星期 / 日期 / 时间 / UTC 偏移 / IANA 时区），收尾再注入 Turn ended 关闭读数——模型始终知道现在几点、今天星期几、上一轮何时结束，日期运算与跨轮间隔不再靠猜；轻量时钟感知，每条约 30 token。
 - [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) — 两阶段会话题词：会话进行中即时关键词题名，空闲后再调用最经济的预算模型精修，并附带一句话摘要。
 - [JRJRJPRO/dsh-chat-tree](https://github.com/JRJRJPRO/dsh-chat-tree) — 把一个对话的所有分支画成聊天区旁边的一棵可点击的树，支持收藏、自定义图标与颜色、分支合并与拆分、撤回感知的布局，以及带记忆的 Claude Code 分支。
