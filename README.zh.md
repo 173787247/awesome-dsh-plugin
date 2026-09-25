@@ -1227,6 +1227,7 @@ dsh plugin --profile web add dshmarket
 - [amlyczz/dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) — 将 Google Antigravity (agy CLI) 接入 DSH：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片、思考轮次注记及 Web 界面 Google OAuth 扫码登录。
 - [Ansonfishing/dsh-model-manager](https://github.com/Ansonfishing/dsh-model-manager) — DSH Web 视图中的本地 LLM 推理服务控制面板:服务注册表与健康检查/停止控制、llama.cpp / SGLang / vLLM 命名参数 profile(保存前做 KV/显存校验)、GPU 探测与 tok/s 测速。
 - [antonio-mastropaolo/dsh-anthropic-membership](https://github.com/antonio-mastropaolo/dsh-anthropic-membership) — 用 Claude Pro/Max 会员登录 DeepSeek Harness（无需 API key），将 Anthropic 请求图片长边压到 2000px，精简 /compact 摘要请求，并显示 5 小时/每周套餐用量百分比与 DSH 消息数。
+- [anze225-max/dsh-mimo-connect](https://github.com/anze225-max/dsh-mimo-connect) — 将 mimo桌面端包含的模型（内测有免费额度）自动接入 DeepSeek Harness，在 DSH 对话窗口里零配置使用。
 - [ArcaneOrion/dsh-model-channel-manager](https://github.com/ArcaneOrion/dsh-model-channel-manager) — 模型渠道管理：多个供应商/模型候选共享一条虚拟路由（roundrobin/组），带失败转移、重试、超时与冷却；设置页签可编辑供应商与轮询组、跑测速与单模型真实请求测试，健康面板聚合七天延迟、失败与上游 token 用量（输入、输出、缓存、推理）。
 - [bainianlaoyao/dsh-codex-harness](https://github.com/bainianlaoyao/dsh-codex-harness) — 面向 DeepSeek Harness 上 GPT 模型的 Codex 风格编码工具与 agent 预设：exec_command、write_stdin、apply_patch、view_image，以及 OpenAI Chat Completions 与 Responses API 两条路由，并桥接 DSH 原生的计划、提问、审批与压缩。长命令注册为 DSH 后台作业，输出首尾有界，可用 job_output 读取；每种子代理类型可独立指定 Preset、Provider、Model 与 Reasoning effort。
 - [bainianlaoyao/dsh-llm-api-pool](https://github.com/bainianlaoyao/dsh-llm-api-pool) — 聚合多个 OpenCode Go API key，把每次请求热切换到用量最低的一个，并提供官方用量/余额查询与设置页图形化管理。
