@@ -557,6 +557,7 @@ dsh plugin --profile web add dshmarket
 - [pc439527/dsh-side-monitor](https://github.com/pc439527/dsh-side-monitor) — 侧边栏系统监控：实时查看宿主机概览（CPU/内存/网络/磁盘）、进程列表与 Docker 容器状态，全程只读。
 - [penguin-oo/dsh-pathlink](https://github.com/penguin-oo/dsh-pathlink) — 在对话中 Ctrl+点击文件路径与链接：路径在文件管理器中定位所在文件夹，链接在新标签页打开。
 - [pengyue-polaron/deepseek-harness-genui](https://github.com/pengyue-polaron/deepseek-harness-genui) — Code-first React + TypeScript 任务应用，支持 Inline、Canvas、全屏与 localhost；交互状态可供 Agent 后续轮次读取，MCP 和 API 访问在用户授权后执行。
+- [perdakovich/dsh-prompt-edit](https://github.com/perdakovich/dsh-prompt-edit) — DSH Web 聊天就地编辑历史提示词：在目标轮次干净分叉会话历史，原样保留图片与附件，并自动归档旧会话。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) — Web 作曲器终端风格输入历史：边缘优先的方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索，以及滑动上下文感知；0.5.0 再加智能输入层——跨会话片段库（/save、/load）、带变量的提示词模板、复用洞察与压缩摘要高亮。
 - [ph4310822/dsh-edex-jarvis-ui#bundle](https://github.com/ph4310822/dsh-edex-jarvis-ui/tree/main/packages/bundle) — 在 DSH Web 界面上叠加 JARVIS 风格科幻 HUD 外壳：电光青色 VITAL SIGNS 生命体征 / RT-MONITOR 实时监控 / RT-LOG 事件日志左栏，右侧 POWER CORE 能源核心仪表、旋转扫描的 RADAR 雷达盘与上下行流量图，左下文件系统浏览器（带文件预览），以及带 JARVIS 头部横幅、跟随当前工作区的终端风格输入框。
 - [ph4310822/dsh-edex-ui#bundle](https://github.com/ph4310822/dsh-edex-ui/tree/main/packages/bundle) — 在 DSH Web 界面上叠加 eDEX-UI 风格外壳：左侧系统遥测栏（含每核 CPU 迷你趋势图）、右侧 encom-globe 世界地图与上下行流量图、左下文件系统浏览器（带文件预览），以及跟随当前工作区的终端风格输入框。
@@ -2286,6 +2287,7 @@ dsh plugin --profile web add dshmarket
 - [Mr-Neutr0n/dsh-medseek](https://github.com/Mr-Neutr0n/dsh-medseek) — 面向临床人员的文档与参考工具包：SOAP/APSO 病程录、入院 H&P、SBAR/I-PASS 交接班、 出院小结、Safe Harbor 脱敏、患者须知可读性评分、完整性检查，以及来自 FDA 说明书、 MedlinePlus、PubMed 和 ClinicalTrials.gov 的带出处检索。仅起草不决定， 内置 PHI 外发守卫；非医疗器械。
 - [mrpulor-gh/dsh-nuphus-mcp](https://github.com/mrpulor-gh/dsh-nuphus-mcp) — nuphus-mcp 官方 DSH 插件（由 nuphus-mcp 维护者发布）：桌面 + 浏览器自动化（38 个工具），配 PaddleOCR 元素感知与 Chrome CDP 浏览，经常驻 stdio MCP 子进程接入。
 - [MrWeiCodes/dsh-fs-encoding](https://github.com/MrWeiCodes/dsh-fs-encoding) — 文件编码守护：为 GBK、Big5、Shift-JIS、EUC-KR、Windows-125x、UTF-16、UTF-32 文件提供字节级无损读写与编辑，改完仍是原编码而不是被悄悄转成 UTF-8；UTF-8 BOM 原样保留，CRLF/LF/CR 换行符保持，编码表示不了的字符拒绝写入而不是写成「?」；非 UTF-8 文件会列出候选编码，模型可显式指定重读。
+- [nanami-0713/dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) — 把 TypeSafe Jev（System One 决策模型）接入 DSH 的 jev_decide 工具：noul/choice/score 三种问题形状返回校准概率，凭证复用 DSH 凭证缝，内建 429/529 退避重试。
 - [NattoCB/dsh-web-search-session-follow](https://github.com/NattoCB/dsh-web-search-session-follow) — 替换内置 web_search 的 provider：按会话当前路由的模型选择端点与凭据，运行时可编辑的优先级链支持 Anthropic web search、OpenRouter online、智谱 bigmodel 三种方言，设置 UI 面板可视化编辑，本地 JSONL 调用审计，链全失败回退内置官方方案。
 - [nicecx/insta360-ai-content-studio](https://github.com/nicecx/insta360-ai-content-studio) — Insta360 GO 3S 自动每日内容管线：BLE/WiFi 遥控拍摄鱼缸素材、无线取回、ffmpeg 质量评估与决策记录、自动剪辑（选段/旁白/配乐/字幕）、biliup 投稿（默认 dry-run）。
 - [NoneadChina/dsh-nonead-universal-robots](https://github.com/NoneadChina/dsh-nonead-universal-robots) — 让 DSH 用自然语言直接控制 Universal Robots（UR）机械臂的插件，由拓德科技（Nonead）基于自研的 nUR MCP Server 同源逻辑开发。（Suzhou Nonead Robot Technology Co., Ltd.）
