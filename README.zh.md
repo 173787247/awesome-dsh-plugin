@@ -4436,7 +4436,7 @@ dsh plugin --profile web add dshmarket
 - [NattoCB/dsh-plugin-petdex-market](https://github.com/NattoCB/dsh-plugin-petdex-market) — 在设置中浏览 petdex.dev 宠物市集，并运行一只响应 agent 活动的 macOS 悬浮桌面宠物。
 - [NoodleStormno/dsh-plugin-tic80](https://github.com/NoodleStormno/dsh-plugin-tic80) — DeepSeek Harness 的 TIC-80 虚拟游戏机插件：三栏嵌入式 Web 播放器、14 个 Agent 工具、实时热重载与原生 CLI 导出。
 - [nxz1026/SinglePlayer](https://github.com/nxz1026/SinglePlayer) — 运行于 DeepSeek Harness 的 AI 原生音乐播放器（music player）：聚合网易云（NetEase）、QQ Music 与酷狗（KuGou）搜索并支持跨源播放回退，逐字卡拉OK歌词（karaoke lyrics）经 USB HID 实时同步至花再音箱（HALO PIXELBAR），搜索、播放、队列、闹钟与音箱控制均可由对话操控。
-- [nzl153/dsh-pet-whale](https://github.com/nzl153/dsh-pet-whale) — 官方鲸鱼轮廓的桌宠：纯 SVG 动画随 agent 状态切换（思考／工作／完成／报错），可戳可拖、双击翻滚，光标停留在身侧会自己避让，7 套色板并跟随亮暗主题，附网页预览可直接试玩。
+- [nzl153/dsh-pet-whale](https://github.com/nzl153/dsh-pet-whale) — 官方鲸鱼轮廓的桌宠，桌面端和网页端都能用：SVG 动画和表情随 agent 状态切换（思考／工作／完成／报错／等待确认），还能跟随其他在跑的会话并用角标显示个数；可戳可拖、能甩晕、按在屏幕边上会压扁，鼠标在头顶来回蹭就是摸头；7 套色板、4 档大小、合成音效，跟随亮暗主题，附网页预览可直接试玩。
 - [omdsh-dev/dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — 自走棋：人机对战或双 AI 对弈。
 - [omdsh-dev/dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可让 AI 对局比棋力。
 - [oopsylol/dsh-waaagh-ork](https://github.com/oopsylol/dsh-waaagh-ork) — 给 DSH Web 加一个会眨眼的像素绿皮兽人：把模型思考与输出掩码成 Waaaaaaagh!（点击显示原文），并支持随机长度的输入掩码。
