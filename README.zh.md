@@ -2122,6 +2122,7 @@ dsh plugin --profile web add dshmarket
 - [helllo-shijie/motor-hospital-plugins#motor-fault-diagnosis](https://github.com/helllo-shijie/motor-hospital-plugins/tree/main/plugins/motor-fault-diagnosis) — 结合故障知识库症状-原因规则与相似历史案例，输出电机候选诊断排序、证据词与建议补测项。
 - [helllo-shijie/motor-hospital-plugins#motor-parts-selector](https://github.com/helllo-shijie/motor-hospital-plugins/tree/main/plugins/motor-parts-selector) — 按故障类型与电机功率生成替换配件 BOM，输出库存、交期与国产/进口替代选项。
 - [hellogit2021/avoid-ai-writing-cn](https://github.com/hellogit2021/avoid-ai-writing-cn) — 中文写作去 AI 味技能插件（AI-isms / AI writing / humanize）：说"去掉AI味"即重写，说"写的不错"自动把新 AI 词汇记入规避表。由知乎圈子"去AI味写作技巧"社区免费提供。
+- [Hercules-debug/huixuan-assistant](https://github.com/Hercules-debug/huixuan-assistant) — 在 DSH 对话里搜索、对比并挑选拼多多商品，数据来自拼多多开放平台官方 API，含价格、销量、服务标签、商品图与推广链接。
 - [hezhongtang/dsh-capability-optimizer](https://github.com/hezhongtang/dsh-capability-optimizer) — 以 advisor / reviewer / designer 角色无头调用 Claude Code，回复作为参考答案。
 - [Hongcheng-LI/dsh-zotero](https://github.com/Hongcheng-LI/dsh-zotero) — 通过 Zotero 本地 API（无需 API Key）操作文献库：检索条目/分类、读元数据与摘要、列附件、读全文（缓存未命中时现场解析 PDF）、下载 PDF、管理笔记。
 - [HorusJiang/dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — 把 Jev 判定变成三件自动动作的 DeepSeek Harness 插件：精简超长工具输出、筛查抓取页面里针对模型的指令、挑选下一步该用的 skill；另有 jev_ask 与 jev_gate 两个工具、可跨重启的判定账本，以及 /jev-status 报告。需要 TypeSafe API key，没有时完全惰性，不发任何请求。
