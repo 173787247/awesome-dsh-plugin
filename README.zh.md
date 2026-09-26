@@ -1390,6 +1390,7 @@ dsh plugin --profile web add dshmarket
 - [superboy911/dsh-model-router](https://github.com/superboy911/dsh-model-router) — DSH 关键词路由与隔离生图插件：确定性关键词路由、白名单模型切换与隔离的 image_gen 生图通道。
 - [superfish058/dsh-llm-proxy](https://github.com/superfish058/dsh-llm-proxy) — 按模型给 LLM 请求分流代理：勾选的模型走代理（Clash 等），其余直连；传输错误、429、5xx 自动重试，设置页实时生效。
 - [tafcear/kimi-tide#dsh-kimi-tide](https://github.com/tafcear/kimi-tide/tree/main/packages/dsh-kimi-tide) — 逐步模型路由器：以命名预设与带图/关键词组有序规则为每一步在全部已挂载模型间选路，附图像转述协作流、图像护栏、多 plan 配额面板与逐步决策可观测。
+- [dsh-tap](https://github.com/taikaikaikai-pixel/dsh-codebuddy-plugin) — DeepSeek Harness 的非官方上游插件包：CodeBuddy 网关（模型目录动态同步、逐模型思考强度、联网搜索/抓取、生图、流式凭据桥），TraeWork CN 与 Qoder CN 两条订阅额度通道（本地 OpenAI 翻译网关），以及 key 型 OpenAI 兼容上游注册表，全部收在四区块手风琴设置卡里。
 - [tearslee/dsh-workbuddy2api](https://github.com/tearslee/dsh-workbuddy2api) — 托管本地 workbuddy2api 网关进程，把它的模型注册为 dsh 的模型提供方，上下文窗口与思考档位均从网关自身的模型接口读取。
 - [TikaFlow/dsh-model-fix](https://github.com/TikaFlow/dsh-model-fix) — 为非官方（自定义）提供方的模型自动填充推理级别、最大上下文、输出上限与图片模态，数据来自 models.dev。同时提供了设置卡片以控制插件行为。
 - [tnnevol/fn-os-apps#dsh-codebuddy-plugin](https://github.com/tnnevol/fn-os-apps/tree/main/plugins/dsh-codebuddy-plugin) — 为 DeepSeek Harness 接入腾讯 CodeBuddy 模型：用浏览器 OAuth 登录替代 API Key，列出 CodeBuddy 模型目录及每个模型的上下文、输出、工具调用、推理与图片能力，支持多账号并在当前账号不可用时自动切换，在输入区显示额度余量并提供 Token 与积分用量面板，还能按账号完成可自动化的 CodeBuddy 成长任务并查看执行日志。npm 安装：`dsh plugin --profile web add @tnnevol/dsh-codebuddy`。
