@@ -1964,7 +1964,7 @@ dsh plugin --profile web add dshmarket
 
 ### 🛠️ 工具与能力
 
-- [0xRabit/dsh-crypto-portfolio](https://github.com/0xRabit/dsh-crypto-portfolio) — 加密货币组合追踪器：BTC / EVM（DeBank 免费+付费双源）/ Solana / Hyperliquid L1 / CEX 余额，多 API 源自动切换、多 Profile 配置、每日定时刷新与趋势图（自带 Web 仪表盘）。
+- [0xRabit/dsh-crypto-portfolio](https://github.com/0xRabit/dsh-crypto-portfolio) — 自托管加密资产仪表盘：BTC、EVM（DeBank 73 条链）、Solana、狗狗币、艾达币、Hyperliquid L1、五家交易所（Binance / Bybit / Backpack / OKX / Bitget）与代币化股票统一视图；多数据源自动切换、自定义资产类别标签、可调阈值的资产健康度报告、可分享的 PNG 卡片、每个数据源独立连通性测试、多 Profile 配置、定时刷新、零依赖图表（Python 标准库 + 原生 JS，无 CDN）。
 - [1321928757/dsh-mysql](https://github.com/1321928757/dsh-mysql) — DeepSeek Harness 的 MySQL 连接插件：在设置页配置多套连接（每连接可配表白名单与写权限），输入栏一键切换当前会话的连接，并为所有 Agent 预设提供 mysql_query / mysql_tables / mysql_execute 工具。
 - [1byteone/dsh-plugin-nlbi](https://github.com/1byteone/dsh-plugin-nlbi) — 自然语言查询 + 商业智能报表：Text2SQL、图表、报表收藏、Schema/数据面板与侧栏工作台，基于 DSH 的 MySQL 连接层。
 - [1Ecc/dsh-lenovo-toolkit](https://github.com/1Ecc/dsh-lenovo-toolkit) — 面向 DSH 的联想笔记本诊断工具集：支持 macOS 与 Windows 电池健康检测，以及 Windows 设备、性能、存储、应用和 Wi-Fi 检查、需用户确认的维护操作，并提供电池保修、备件、门店与预约辅助。
